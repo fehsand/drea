@@ -1,0 +1,46 @@
+{% extends 'mainapp/temel.html' %}
+{% load i18n %}
+
+{% block content %}
+<main role="main">
+    <div id="myCarousel" class="carousel slide">
+        <div class="carousel-inner ">
+            <div class="carousel-item active">
+                <img class="first-slide" src="/static/ea1.jpg" alt="First slide">
+                <div class="container ">
+                    <div class="carousel-caption text-left">
+                        <h1 class="font-italic">{% trans "RÜYA TABİRLERİ" %}</h1>
+                        <p class="lead">{% trans "Bu bölümde, rüyanızda gördüğünüz olayların anlamlarını anahtar kelimeler kullanarak arayabilirsiniz yada gördüğünüz rüyayı, rüya tabir formunu doldurarak bize gönderebilirsiniz." %}</p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">{% trans "Rüya Tabirleri için Tıklayınız..." %}</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr class="featurette-divider my-5 py-3">
+        <div class="row featurette my-5 py-3">
+            <div class="col-md-7">
+                <h1 class="featurette-heading font-italic">{% trans "YILDIZNAME" %}</h1>
+                <p class="lead text-justify">{% trans "Bu bölümde kendinizin ve annenizin ismini yazarak burcunuz hakkındaki bilgileri okuyabilirsiniz." %}</p>
+                <p class="lead"><a href="#" class="font-weight-bold">{% trans "Yıldızname için Tıklayınız..." %}</a></p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto w-100" src="/static/den_yildizname2.jpg" alt="yildizname">
+            </div>
+        </div>
+        <hr class="featurette-divider my-5 py-3">
+        <div class="row featurette my-5 py-3">
+            <div class="col-md-7 order-md-2">
+                <h1 class="featurette-heading">{% trans "TEFE'ÜL" %}</h1>
+                <p class="lead text-justify">{% blocktrans %}"Devemin yularını kaybetsem Kuran'da bulurum"<br>İbn Abbas (r.a.)<br><br>Sizde Kur'an-ı Kerim'den kendi hissenizi almak için, temiz bir niyetle danışmak istediğiniz konuyu belirterek Tefe'ül başlatınız.<br>Aradığınız çıkış yolu bazen kelimede, bazen ayette bazen de surede gizli olabilir.<br>Hepsini beraber değerlendirmek, tefsir kitaplarından daha fazla bilgi edinmek gerektiğini unutmayınız.<br>{% endblocktrans %}</p>
+                <p class="lead"><a href="#" class="font-weight-bold">{% trans "Tefe'ül için Tıklayınız..." %}</a></p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="featurette-image img-fluid mx-auto w-100" src="/static/den_tefeul.jpg" alt="tefeul">
+            </div>
+        </div>
+    </div>
+</main>
+
+{% endblock %}

@@ -1,0 +1,6 @@
+Github güncelleme:
+git status
+git add --all .
+git status
+git commit -m "Gelistirme."
+git push

@@ -1,0 +1,91 @@
+<!doctype html>
+{% load i18n %}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% trans "Rüya Tabirleri bölümünde rüyanızda gördüğünüz olayları kelimeler ile özetleyerek arama yapabilir ya da rüya tabirleri formu ile bize gönderebilirsiniz. Yıldızname bölümünde, isminizi ve annenizin ismini uygulamaya girerek yıldıznamenize bakabilirsiniz. Diğer bölümlerde Tefeül yapabilir ya da Kurani Kerimden dua ayetlerini okuyabilirsiniz." as des_content_tu %}
+    <meta name="description" content="{{des_content_tu}}">
+    {% trans "ruyatabirix, rüya, rüyada, rüyamda, ruya, ruyada, ruyamda, tabir, tabiri, tabirleri, yorum, yorumu, yorumları, görmek, gördüm, rüya tabiri, ruya tabiri, rüya tabirleri, ruya tabirleri, rüya yorumu, ruya yorumu, islama uygun, islam, islamik, burçlar, yildizname, yıldızname, yıldızname nedir, yildizname nedir, fal, tefe'ul, tefe'ul nedir, tefe'ül, tefe'ül nedir, tefeul, tefeul nedir, tefeül, tefeül nedir, tefeül yap, ayet, dua" as key_content_tu  %}
+    <meta name="keywords" content="{{key_content_tu}}">
+    <meta name="author" content="fehsand">
+    <title>{% trans "Ruyatabirix.com" %}</title>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-ico" />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--icon için-->
+    <style>
+        body { padding-top: 3rem; padding-bottom: 3rem;}
+        .carousel {  margin-bottom: 4rem; }
+        .carousel-caption {   bottom: 3rem;   z-index: 20; }
+        .carousel-caption h1 {  font-size: 1.5rem; }
+        .carousel-item {   height: 40rem;   background-color: #777;}
+        .carousel-item > img {   position: absolute;   top: 0;   left: 0;   max-width: 100%;   height: 40rem; }
+        @media (min-width: 40em) {
+        .carousel-caption p {margin-bottom: 1.25rem; font-size: 1.25rem; line-height: 1.4; }
+        .carousel-caption h1 {font-size: 3rem; }
+        .carousel-item > img {position: absolute;   top: 0;   left: 0;   min-width: 100%;   height: 40rem; }
+        }
+    </style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-white border-bottom box-shadow fixed-top">
+    <a class="navbar-brand" href="#">
+        <img src="/static/logo_marka_2.png" class="rounded-circle d-inline-block align-top" width="90" height="60" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto ">
+            <li class="nav-item ">
+                <a class="nav-link" href="#">{% trans "Rüya Nedir?" %}</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">{% trans "Yıldızname Nedir?" %}</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">{% trans "Tefe'ül Nedir?" %}</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">{% trans "Dua Nedir?" %}</a>
+            </li>
+        </ul>
+        {% if user.is_authenticated %}
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-user"></i> {{user.username}}</button>
+            <div class="dropdown-menu dropdown-menu-left" aria-labelledby="dropdownMenuButton1">
+                <a class="dropdown-item" href="#">{% trans "Hesabım" %}</a>
+                {% if user.is_superuser %}
+                <a class="dropdown-item" href="#">Yönetici Sayfası</a>
+                {% endif %}
+                <a class="dropdown-item" href="#">{% trans "Çıkış Yap" %}</a>
+            </div>
+        </div>
+        {% else %}
+        <a class="btn btn-outline-dark" href="#">{% trans "Giriş Yap" %}</a>
+        {% endif %}
+    </div>
+</nav>
+
+{% block content %}
+{% endblock %}
+
+<!-- FOOTER -->
+<footer class="container">
+    <p class="float-right"><a href="#">{% trans "Başa Dön" %}</a></p>
+    <p>&copy; 2020 Ruyatabirix.com &middot; <a href="#">{% trans "Gizlilik Politikası" %}</a>
+        &middot; <a href="#">{% trans "İletişim" %}/{% trans "Sosyal Medya" %}</a>
+    </p>
+</footer>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
