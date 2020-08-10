@@ -31,8 +31,8 @@
 
 <body>
 <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom box-shadow fixed-top">
-    <a class="navbar-brand" href="#">
-        <img src="/static/logo_marka_2.png" class="rounded-circle d-inline-block align-top" width="90" height="60" alt="logo">
+    <a class="navbar-brand" href="{% url 'mainapp:anasayfa'%}">
+        <img src="/static/logo_ea.jpg" class="rounded-circle d-inline-block align-top" width="90" height="60" alt="logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,33 +40,85 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto ">
             <li class="nav-item ">
-                <a class="nav-link" href="#">{% trans "Rüya Nedir?" %}</a>
+                <a class="nav-link" href="#">{% trans "Hakkımda" %}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">{% trans "Yıldızname Nedir?" %}</a>
+                <a class="nav-link" href="#">{% trans "Uygulamalar" %}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">{% trans "Tefe'ül Nedir?" %}</a>
+                <a class="nav-link" href="#">{% trans "Basında" %}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">{% trans "Dua Nedir?" %}</a>
+                <a class="nav-link" href="#">{% trans "Eğitim" %}</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">{% trans "İletişim" %}</a>
             </li>
         </ul>
+        <span class="navbar-text px-1 mx-1">
+            <i class="fa fa-phone fa-lg" style="color:#1ad1ff"></i> 0212 803 10 98<br>
+            <i class="fa fa-whatsapp fa-lg" style="color:#1ad1ff"></i> 0541 503 10 80
+        </span>
+
+        <div class="dropdown p-0 m-0 my-1">
+            {% get_current_language as LANGUAGE_CODE %}
+            {% get_available_languages as LANGUAGES %}
+            {% get_language_info_list for LANGUAGES as languages %}
+            {% for language in languages %}
+            {% if language.code == LANGUAGE_CODE %}
+            <button class="btn btn-outline-info mx-1 dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-globe px-1"></i>
+                {{ language.name_local }}
+            </button>
+            {% endif %}
+            {% endfor %}
+            <div class="dropdown-menu dropdown-menu-left m-0 p-0" aria-labelledby="dropdownMenuButton">
+                <div class="col-xs-12 m-0 p-0 w-100">
+                    <form class="m-0 p-0 " action="{% url 'set_language' %}" method="post">
+                        {% csrf_token %}
+                        <input name="next" type="hidden" value="/" />
+                        <a class="dropdown-item m-0 p-0">
+                            <button type="submit" name="language" value="tr" class="btn btn-link btn-block m-0 px-2 py-4">Türkçe</button>
+                        </a>
+                    </form>
+                </div>
+                <div class="col-xs-12 m-0 p-0 w-100">
+                    <form class="m-0 p-0 " action="{% url 'set_language' %}" method="post">
+                        {% csrf_token %}
+                        <input name="next" type="hidden" value="/" />
+                        <a class="dropdown-item m-0 p-0">
+                            <button type="submit" name="language" value="en" class="btn btn-link btn-block m-0 px-2 py-4">English</button>
+                        </a>
+                    </form>
+                </div>
+                <div class="col-xs-12 m-0 p-0 w-100">
+                    <form class="m-0 p-0 " action="{% url 'set_language' %}" method="post">
+                        {% csrf_token %}
+                        <input name="next" type="hidden" value="/" />
+                        <a class="dropdown-item m-0 p-0">
+                            <button type="submit" name="language" value="ar" class="btn btn-link btn-block m-0 px-2 py-4">العربية</button>
+                        </a>
+                    </form>
+                </div>
+
+            </div>
+        </div>
         {% if user.is_authenticated %}
         <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fa fa-user"></i> {{user.username}}</button>
             <div class="dropdown-menu dropdown-menu-left" aria-labelledby="dropdownMenuButton1">
                 <a class="dropdown-item" href="#">{% trans "Hesabım" %}</a>
+                <a class="dropdown-item" href="#">{% trans "Çıkış Yap" %}</a>
                 {% if user.is_superuser %}
                 <a class="dropdown-item" href="#">Yönetici Sayfası</a>
                 {% endif %}
-                <a class="dropdown-item" href="#">{% trans "Çıkış Yap" %}</a>
             </div>
         </div>
         {% else %}
-        <a class="btn btn-outline-dark" href="#">{% trans "Giriş Yap" %}</a>
+        <a class="btn btn-outline-info" href="#">{% trans "Giriş Yap" %}</a>
         {% endif %}
     </div>
 </nav>
@@ -76,9 +128,11 @@
 
 <!-- FOOTER -->
 <footer class="container">
-    <p class="float-right"><a href="#">{% trans "Başa Dön" %}</a></p>
-    <p>&copy; 2020 Ruyatabirix.com &middot; <a href="#">{% trans "Gizlilik Politikası" %}</a>
-        &middot; <a href="#">{% trans "İletişim" %}/{% trans "Sosyal Medya" %}</a>
+    <p class="float-right"><a href="{% url 'mainapp:anasayfa'%}">{% trans "Başa Dön" %}</a></p>
+    <p>Tüm Hakları Saklıdır &copy; 2020 | Dr. Ersin Aydın &middot; <a href="#">{% trans "Gizlilik Politikası" %}</a>
+        &middot; <a href="#">{% trans "Kullanım Şartları" %}</a>
+        &middot; <a href="#">{% trans "İletişim" %}</a>
+        &middot; <a href="#">{% trans "Sosyal Medya" %}</a>
     </p>
 </footer>
 <!-- Bootstrap core JavaScript

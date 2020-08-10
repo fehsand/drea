@@ -9,6 +9,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = 'f^$twh8u*l2ra7vl*l1y(74!1k+m3s(mcv1*+1$-22d9!u=cn$'
 #with open('/home/ruyatabirix/sc_ky.txt') as f:
 #    SECRET_KEY = f.read().strip()
 
@@ -97,6 +98,12 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'tr'
 
+LANGUAGES = [
+    ('tr', 'Turkish'),
+    ('en', 'English'),
+    ('ar', 'Arabic'),
+]
+
 TIME_ZONE = 'Europe/Istanbul'
 
 USE_I18N = True
@@ -105,8 +112,10 @@ USE_L10N = True
 
 USE_TZ = True
 
-
+LOCALE_PATHS = [os.path.join (BASE_DIR, 'locale'), ]
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'

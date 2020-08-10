@@ -4,3 +4,22 @@ git add --all .
 git status
 git commit -m "Gelistirme."
 git push
+
+Run makemessages:
+django-admin makemessages -l en
+django-admin makemessages -l ar
+
+Run compilemessages:
+django-admin compilemessages
+
+#---------------------MODEL Güncelleme-----------------
+py manage.py makemigrations ruyatabirleri
+py manage.py migrate ruyatabirleri
+
+
+<span class="navbar-text"><i class="fa fa-phone-square fa-3x fa-pull-left"></i>0 (212) 803 10 98<br><small>Bize Ulaşın</small></span>
+
+        <span class="navbar-text p-1  h5"><i class="fa fa-phone fa-lg fa-border fa-pull-left" style="color:#1ad1ff"></i>0212 803 10 98<br><small>Bize Ulaşın</small></span>
+        <span class="navbar-text p-1 h5"><i class="fa fa-whatsapp fa-lg fa-border fa-pull-left" style="color:#1ad1ff"></i>0541 503 10 80<br><small>Whatsapp Hattı</small></span>
+
+    <hr class="featurette-divider my-5 py-3">
