@@ -1,15 +1,13 @@
 import os
 from django.utils.translation import ugettext_lazy as _
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
-
+SECRET_KEY = 'f^$twh8u*l2ra7vl*l1y(74!1k+m3s(mcv1*+1$-22d9!u=cn$'
 #with open('/home/ruyatabirix/sc_ky.txt') as f:
 #    SECRET_KEY = f.read().strip()
 
-# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']

@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    {% trans "Rüya Tabirleri bölümünde rüyanızda gördüğünüz olayları kelimeler ile özetleyerek arama yapabilir ya da rüya tabirleri formu ile bize gönderebilirsiniz. Yıldızname bölümünde, isminizi ve annenizin ismini uygulamaya girerek yıldıznamenize bakabilirsiniz. Diğer bölümlerde Tefeül yapabilir ya da Kurani Kerimden dua ayetlerini okuyabilirsiniz." as des_content_tu %}
+    {% trans "DERMATOLOG Dr. Ersin AYDIN (NATUREL BOTOKS-BURUN DOLGUSU-MASSETER BOTOKS)" as des_content_tu %}
     <meta name="description" content="{{des_content_tu}}">
-    {% trans "ruyatabirix, rüya, rüyada, rüyamda, ruya, ruyada, ruyamda, tabir, tabiri, tabirleri, yorum, yorumu, yorumları, görmek, gördüm, rüya tabiri, ruya tabiri, rüya tabirleri, ruya tabirleri, rüya yorumu, ruya yorumu, islama uygun, islam, islamik, burçlar, yildizname, yıldızname, yıldızname nedir, yildizname nedir, fal, tefe'ul, tefe'ul nedir, tefe'ül, tefe'ül nedir, tefeul, tefeul nedir, tefeül, tefeül nedir, tefeül yap, ayet, dua" as key_content_tu  %}
+    {% trans "key words leri buraya yazacağız" as key_content_tu  %}
     <meta name="keywords" content="{{key_content_tu}}">
     <meta name="author" content="fehsand">
-    <title>{% trans "Ruyatabirix.com" %}</title>
+    <title>{% trans "Dr. Ersin AYDIN" %}</title>
     <link rel="icon" href="/static/favicon.ico" type="image/x-ico" />
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -40,10 +40,10 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto ">
             <li class="nav-item ">
-                <a class="nav-link" href="#">{% trans "Hakkımda" %}</a>
+                <a class="nav-link" href="{% url 'mainapp:hakkimda'%}">{% trans "Hakkımda" %}</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">{% trans "Uygulamalar" %}</a>
+                <a class="nav-link" href="{% url 'mainapp:uygulamalar'%}">{% trans "Uygulamalar" %}</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">{% trans "Basında" %}</a>

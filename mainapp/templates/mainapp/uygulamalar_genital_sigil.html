@@ -1,0 +1,105 @@
+{% extends 'mainapp/temel.html' %}
+{% load i18n %}
+
+{% block content %}
+<main role="main" class="container">
+    <div class="jumbotron p-3 p-md-5 text-white rounded bg-info">
+        <div class="col-md-12 my-3 px-0">
+            <div class="row featurette my-5 ">
+                <div class="col-md-6 order-md-2 mx-auto pt-5">
+                    <h1 class="display-4 font-italic text-center">Genital Siğil</h1>
+                    <hr class="featurette-divider my-5 bg-white">
+                </div>
+                <div class="col-md-4 order-md-1">
+                    <img class="featurette-image img-fluid w-100" src="/static/genital_sigil.jpg" alt="iletişim">
+                </div>
+            </div>
+            <div class="row featurette my-5 ">
+                <p class="lead text-justify p-3">
+                    Genital Siğil Nedir?<br><br>
+                    İnsan (human) papilloma virusa (HPV) bağlı olarak oluşan ve cinsel yolla bulaşan bir viral enfeksiyondur.
+                    HPV’nin çok sayıda tipi vardır ve bunların yaklaşık yarısı genital siğile neden olabilmektedir.<br><br>
+                    Genital Siğil Neden Olur?<br><br>
+                    HPV virüsünün cinsel yolla bulaşmasına bağlı olarak oluşur.<br><br>
+                    Genital Siğil Nasıl Bulaşır?<br><br>
+                    Genital bölge siğilleri cinsel yolla bulaşmaktadır.
+                    Bulaşma sıklıkla deri temasıyla olduğu için, tam bir cinsel ilişki olmadan da gerçekleşebilir.
+                    Ender de olsa cinsel yol dışında bulaşın gerçekleştiği hastalar da vardır.<br><br>
+                    Genital Siğilin Belirtileri Nelerdir?<br><br>
+                    Genital bölgede, anüs (makat) çevresinde küçük, deri renginde, kırmızı veya kahverengi bir kabarıklık olarak başlar.
+                    Genital bölgenin nemli olan kısımlarında ortaya çıktığında beyazımsı bir şekilde de görülebilir.
+                    Erken dönemde tedavi edilmediğinde hızla büyüyerek üzeri karnıbahar gibi bir görünüm alabilir.<br><br>
+                    HPV Bulaştıktan Ne Kadar Zaman Sonra Genital Siğiller Ortaya Çıkar?<br><br>
+                    HPV’nin kuluçka dönemi haftalar ve hatta yıllar sürebilmektedir.
+                    Bu nedenle cinsel ilişkiden yıllar sonra bile genital siğiller ortaya çıkabilir.<br><br>
+                    Genital Siğilin Tanısı Nasıl Konulur?<br><br>
+                    Hastalığın tanısı sıklıkla klinik muayene ile konulmaktadır.
+                    Ender olarak ayırıcı tanı için deriden biyopsi almak da gerekebilir.<br><br>
+                    Genital Siğiller Kendiliğinden İyileşir mi?<br><br>
+                    Genital siğili olan bazı hastalar yaşadığı kaygılar nedeniyle ve “kendiliğinden iyileşir” düşüncesiyle
+                    tedavi olmakta geç kalmaktadır. Maalesef sıklıkla iyileşme olmamakta,
+                    genital siğillerin sayı ve büyüklüğü artmış olarak doktora başvurmakta,
+                    bu durum da tedavi süresinde uzamalara neden olmaktadır.<br><br>
+                    Tedavi Olunmazsa Ne Olur?<br><br>
+                    Genital siğiller tedavi edilmediğinde genital bölge sıcak ve nemli olduğu için kolayca yayılabilir,
+                    sayıları hızla artabilir. HPV cinsel partnerinize de bulaşabilir.<br><br>
+                    Genital Siğil Nasıl Tedavi Edilir?<br><br>
+                    Genital siğilin tedavisinde kriyoterapi (nitrojen ile dondurma tedavisi), elektrokoter (yakma),
+                    lazer gibi farklı seçenekler mevcuttur.
+                    Ek olarak deri üzerine uygulanan bazı ilaçlarla da (5 FU, Salisilik asit, podofilotoksin/podofilin vb)
+                    tedavinin etkinliği artırılabilir.
+                    Uygulanacak tedavi siğillerin yeri, sayısı, büyüklüğü gibi özelliklere bağlı olarak değişkenlik gösterir.<br><br>
+                    Lazerle Genital Siğil Tedavisi Nasıl Yapılır?<br><br>
+                    Genital siğiller buharlaştırıcı özelliği olan lazer ışını yardımıyla tedavi edilebilir.
+                    Diğer tedavi yöntemlerine göre lazer tedavisinde doku hasarı daha azdır.<br><br>
+                    Genital Siğil Tedavi Esnasında Ağrı Hissedilir mi?<br><br>
+                    Tedavi uygulanacak alan işlem öncesi lokal anestezik kremlerle uyuşturulacağı için ağrı hissedilmemektedir.<br><br>
+                    Genital Siğil Tedavisi Sonrası Nelere Dikkat Edilmelidir ?<br><br>
+                    Tedavi sonrasında ikincil olarak ortaya çıkabilecek enfeksiyonlardan korunmak amacıyla
+                    yerel antibiyotik içeren merhemler, yara iyileşmesi tamamlanıncaya kadar kullanılmalıdır.<br><br>
+                    Genital Siğil Tedavisi Sonrasında Süreç Nasıl Olmalıdır?<br><br>
+                    Tedaviden sonra tedavi edilen yerlerin yakınlarında yeni siğiller çıkabilir.
+                    Bu nedenle genital bölgenin düzenli olarak muayene edilmesi gereklidir.
+                    Tam olarak tedavi edilse bile genital siğillerin tekrarlama riski vardır.<br><br>
+                    Genital Siğil Cinsel Yaşantımı ve Psikolojimi Etkiler mi?<br><br>
+                    Genital siğillerin psikolojik etkileri, fiziksel etkilerinden çok daha büyük bir problem haline gelebilmektedir.
+                    Genital siğiller cinsel hayatı da olumsuz etkilediği için anksiyete, depresyon gibi psikolojik sorunlara,
+                    yaşam kalitesinin azalmasına neden olabilmekte ve
+                    bu durumda kişinin cinsel performansını olumsuz olarak etkilemektedir.
+                    Genital siğil tedavi edilmediği sürece bu kısır döngü artarak devam etmektedir.<br><br>
+                    Genital Siğil Kansere Neden Olur mu?<br><br>
+                    Kadınlarda HPV tiplerinin bazıları (Tip 16, 18) rahim ağzı kanserine de neden olabilmektedir.
+                    Bu nedenle genital siğili olan kadınların mutlaka Kadın Hastalıkları ve Doğum Uzmanına da muayene olmaları,
+                    rahim ağzı kanseri riski nedeniyle de mutlaka düzenli olarak "smear" yaptırmaları gerekmektedir.<br><br>
+                    Genital Siğilden Nasıl Korunurum?<br><br>
+                    Genital siğilden korunmanın en iyi yolu cinsel ilişkiye girmekten kaçınmak ya da
+                    HPV olmayan biriyle tek eşli bir cinsel ilişki sürdürmektir.
+                    Doğru ve sürekli kondom kullanımı HPV bulaşma ihtimalini azaltsa da kondom dışı alanlarda HPV olabildiği için
+                    bulaş olabilir. İlişi sonrası cinsel bölgeyi su veya antiseptik solüsyonlarla yıkamak HPV bulaşını engellemez.<br><br>
+                    Genital Siğilden Korunmada Aşının Faydası Olur mu?<br><br>
+                    HPV virüsüne karşı geliştirilen aşılar sayesinde, kadınlarda rahim ağzı kanseri ve
+                    genital siğiller yaşam süresince önlenebilmektedir.
+                    Bunun için 11-12 yaşındaki kız çocuklarına 3 doz HPV aşısı yapılması önerilmektedir.
+                    Bir tip HPV virüsüyle enfekte olan hastalar aşıdaki diğer virüs tiplerine karşı korunabildikleri için
+                    bu hastalara da aşı uygulanması önerilir.<br><br>
+                    Cinsel Partnerizi de Koruyun !<br><br>
+                    Genital siğile yakalandığınızda bu durumu en kısa sürede partnerinizle paylaşın ve
+                    mutlaka bir doktora gidip muayene olmasını söyleyin.
+                    Kendinizde veya partnerinizde genital siğil bulguları varken cinsel ilişkiye girmekten kaçının.
+                    Genital siğiliniz varsa cinsel yolla bulaşan diğer hastalıklar açısından da test yaptırmanız gerekir.
+                    Partnerlerinizle de bu durumu paylaşın.
+                </p>
+            </div>
+            <div class="row featurette my-5 ">
+                <div class="col-md-12 mx-auto pt-5">
+                    <h1 class="display-4 font-italic text-center">Uygulamayı İzlemek için Videoyu Tıklayınız</h1>
+                    <hr class="featurette-divider my-5 bg-white">
+                </div>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mqAs_E9dLNU" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

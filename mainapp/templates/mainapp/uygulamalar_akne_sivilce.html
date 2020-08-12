@@ -1,0 +1,45 @@
+{% extends 'mainapp/temel.html' %}
+{% load i18n %}
+
+{% block content %}
+<main role="main" class="container">
+    <div class="jumbotron p-3 p-md-5 text-white rounded bg-info">
+        <div class="col-md-12 my-3 px-0">
+            <div class="row featurette my-5 ">
+                <div class="col-md-6 order-md-2 mx-auto pt-5">
+                    <h1 class="display-4 font-italic text-center">Akne (Sivilce)</h1>
+                    <hr class="featurette-divider my-5 bg-white">
+                </div>
+                <div class="col-md-4 order-md-1">
+                    <img class="featurette-image img-fluid w-100" src="/static/akne_sivilce.jpg" alt="iletişim">
+                </div>
+            </div>
+            <div class="row featurette my-5 ">
+                <p class="lead text-justify p-3">
+                    Akne, yüz, omuzlar, sırt ve göğüsteki yağ bezleriyle ilgili bir deri hastalığı.
+                    En çok 14-20 yaşlar arasında görülür ve bu hastalığın tipik belirtileri olan siyah noktalar,
+                    sivilceler, gençlerin bu en hassas devirlerinde genellikle psikolojik rahatsızlıklara yol açar.
+                    Yağ bezlerinin kanalında bir tıkaç oluşur ve bu tıkacın başı sertleşip siyahlaşır.
+                    Bazen, kanal tıkalı olduğu halde, bez, yağ salgılamaya devam eder ve böylece içi yağ dolu bir kist oluşur.
+                    Siyah noktalara tıpta komedon adı verilir.
+                    Genetik yatkınlık,stres,yağlı kozmetik ürünler,hiperandrojenizm risk faktörleri arasında sayılır.<br><br>
+                    Komedon oluştuktan sonra, normalde de cildimizde bulunan propionibacterium acnes adlı bakteri buraya yerleşir
+                    ve akne oluşumuna katkıda bulunur.
+                </p>
+                <div class="col-md-6 mx-auto">
+                    <img class="featurette-image img-fluid w-100" src="/static/akne_sivilce2.jpg" alt="iletişim">
+                </div>
+            </div>
+            <div class="row featurette my-5 ">
+                <div class="col-md-12 mx-auto pt-5">
+                    <h1 class="display-4 font-italic text-center">Uygulamayı İzlemek için Videoyu Tıklayınız</h1>
+                    <hr class="featurette-divider my-5 bg-white">
+                </div>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mqAs_E9dLNU" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

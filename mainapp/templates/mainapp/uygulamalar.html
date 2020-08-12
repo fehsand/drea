@@ -1,0 +1,111 @@
+{% extends 'mainapp/temel.html' %}
+{% load i18n %}
+
+{% block content %}
+<main role="main" class="container">
+    <div class="jumbotron p-3 p-md-5 my-5 bg-white rounded text-center ">
+        <div class="col-md-10 p-0 my-0 mx-auto">
+            <h1 class="display-4 font-italic border-bottom">UYGULAMALAR</h1>
+        </div>
+    </div>
+</main>
+<div class="jumbotron p-3 p-md-5 text-white rounded bg-info">
+    <div class="col-md-12 px-0">
+        <h1 class="display-4 font-italic">Estetik ve Kozmetik Dermatoloji</h1>
+        <hr class="featurette-divider my-5 bg-white">
+        <div class="row featurette my-5 ">
+            <div class="col-md-6 order-md-2 mx-auto text-justify">
+                <h2 class="featurette-heading">Kırışıklık Tedavisi</h2>
+                <p class="lead">"Kendi Yaşınızın En Genci Olun."<br> Hepimiz aynaya baktığımızda kendimizi genç ve güzel hissetmek isteriz. Zamanla yüzümüzde ortaya çıkan kırışıklıklar kendimizi yaşlı olarak hissetmemizde büyük rol oynamaktadır. Bu kırışıklıkların oluşmasındaki en önemli pay günlük hayatımızda sıkça kullandığımız mimik kaslarına aittir. Clostridium Botulinum da bu kasların neden olduğu kırışıklıkların azaltılmasında ve engellemesinde kullanılan etkili bir estetik yöntemdir.</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar2'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+            </div>
+            <div class="col-md-4 order-md-1">
+                <img class="featurette-image img-fluid mx-auto w-100" src="/static/kirisiklik_tedavisi.jpg" alt="iletişim">
+            </div>
+        </div>
+        <hr class="featurette-divider my-5 bg-white">
+        <div class="row featurette my-5 ">
+            <div class="col-md-6 order-md-2 mx-auto text-justify">
+                <h2 class="featurette-heading">El ve Koltuk Altı Terleme Tedavisi</h2>
+                <p class="lead">Terleme Tedavisi; Koltuk altı ve el aşırı terlemesinde botoks uygulaması ile oldukça başarılı sonuçlar elde edilmektedir. Zamanında yapılan tekrarlar tedavinin etkinliğini arttırır. Terlemenin azalması kişinin sosyal ve psikolojik yaşantısına olumlu yansır.</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar3'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+            </div>
+            <div class="col-md-4 order-md-1">
+                <img class="featurette-image img-fluid mx-auto w-100" src="/static/asiri_terleme.jpg" alt="iletişim">
+            </div>
+        </div>
+        <hr class="featurette-divider my-5 bg-white">
+        <div class="row featurette my-5 ">
+            <div class="col-md-6 order-md-2 mx-auto text-justify">
+                <h2 class="featurette-heading">Somon DNA Aşısı</h2>
+                <p class="lead">"Kendi Yaşınızın En Genci Olun."<br> Hepimiz aynaya baktığımızda kendimizi genç ve güzel hissetmek isteriz. Zamanla yüzümüzde ortaya çıkan kırışıklıklar kendimizi yaşlı olarak hissetmemizde büyük rol oynamaktadır. Bu kırışıklıkların oluşmasındaki en önemli pay günlük hayatımızda sıkça kullandığımız mimik kaslarına aittir. Clostridium Botulinum da bu kasların neden olduğu kırışıklıkların azaltılmasında ve engellemesinde kullanılan etkili bir estetik yöntemdir.</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar4'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+            </div>
+            <div class="col-md-4 order-md-1">
+                <img class="featurette-image img-fluid mx-auto w-100" src="/static/somon_asisi.jpg" alt="iletişim">
+            </div>
+        </div>
+        <hr class="featurette-divider my-5 bg-white">
+        <div class="row featurette my-5 ">
+            <div class="col-md-6 order-md-2 mx-auto text-justify">
+                <h2 class="featurette-heading">Aqualpeel</h2>
+                <p class="lead">
+                    Aquapeel içerisinde bulunan 3 adet değişik özellikdeki bileşimyonlarla 3 değişik aşamada medikal bir cilt bakımı yapar.
+                    İlk ve ikinci aşamada vorteks vakumlama özelliği ile yüzeysel bir soyma yaparak gözeneklerin açılmasını yardımcı olur.
+                    Üçüncü aşamada içeriğini yatıştırıcı ve nemlendirici. Toplamda 3 ile 5 seans arasında yapılır.</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar5'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+            </div>
+            <div class="col-md-4 order-md-1">
+                <img class="featurette-image img-fluid mx-auto w-100" src="/static/aqualpeel.jpg" alt="iletişim">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jumbotron p-3 p-md-5 text-white rounded bg-info">
+    <div class="col-md-12 px-0">
+        <h1 class="display-4 font-italic">Genel Dermatoloji (Cilt Hastalıkları)</h1>
+        <hr class="featurette-divider my-5 bg-white">
+        <div class="row featurette my-5 ">
+            <div class="col-md-6 order-md-2 mx-auto text-justify">
+                <h2 class="featurette-heading">Akne (Sivilce)</h2>
+                <p class="lead">
+                    Akne, yüz, omuzlar, sırt ve göğüsteki yağ bezleriyle ilgili bir deri hastalığı.
+                    En çok 14-20 yaşlar arasında görülür ve bu hastalığın tipik belirtileri olan siyah noktalar,
+                    sivilceler, gençlerin bu en hassas devirlerinde genellikle psikolojik rahatsızlıklara yol açar.
+                    Yağ bezlerinin kanalında bir tıkaç oluşur ve bu tıkacın başı sertleşip siyahlaşır.
+                    Bazen, kanal tıkalı olduğu halde, bez, yağ salgılamaya devam eder ve böylece içi yağ dolu bir kist oluşur.
+                    Siyah noktalara tıpta komedon adı verilir.
+                    Genetik yatkınlık,stres,yağlı kozmetik ürünler,hiperandrojenizm risk faktörleri arasında sayılır.<br><br>
+                    Komedon oluştuktan sonra, normalde de cildimizde bulunan propionibacterium acnes adlı bakteri buraya yerleşir
+                    ve akne oluşumuna katkıda bulunur.</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar6'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+            </div>
+            <div class="col-md-4 order-md-1">
+                <img class="featurette-image img-fluid mx-auto w-100" src="/static/akne_sivilce.jpg" alt="iletişim">
+            </div>
+        </div>
+        <hr class="featurette-divider my-5 bg-white">
+        <div class="row featurette my-5 ">
+            <div class="col-md-6 order-md-2 mx-auto text-justify">
+                <h2 class="featurette-heading">Genital Siğil</h2>
+                <p class="lead">"Genital bölge siğilleri cinsel yaşamınızı etkilemesin!"</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar7'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+            </div>
+            <div class="col-md-4 order-md-1">
+                <img class="featurette-image img-fluid mx-auto w-100" src="/static/genital_sigil.jpg" alt="iletişim">
+            </div>
+        </div>
+        <hr class="featurette-divider my-5 bg-white">
+        <div class="row featurette my-5 ">
+            <div class="col-md-6 order-md-2 mx-auto text-justify">
+                <h2 class="featurette-heading">Mantar Hastalıkları</h2>
+                <p class="lead">Mantar Hastalıkları</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar8'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+            </div>
+            <div class="col-md-4 order-md-1">
+                <img class="featurette-image img-fluid mx-auto w-100" src="/static/mantar_hastaliklari.jpg" alt="mantar hastaliklari">
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

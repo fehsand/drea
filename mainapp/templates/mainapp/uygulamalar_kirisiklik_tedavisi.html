@@ -1,0 +1,105 @@
+{% extends 'mainapp/temel.html' %}
+{% load i18n %}
+
+{% block content %}
+<main role="main" class="container">
+    <div class="jumbotron p-3 p-md-5 text-white rounded bg-info">
+        <div class="col-md-12 my-3 px-0">
+            <div class="row featurette my-5 ">
+                <div class="col-md-6 order-md-2 mx-auto pt-5">
+                    <h1 class="display-4 font-italic text-center">Kırışıklık Tedavisi</h1>
+                    <hr class="featurette-divider my-5 bg-white">
+                </div>
+                <div class="col-md-4 order-md-1">
+                    <img class="featurette-image img-fluid w-100" src="/static/kirisiklik_tedavisi.jpg" alt="iletişim">
+                </div>
+            </div>
+            <div class="row featurette my-5 ">
+                <p class="lead text-justify p-3">
+                    "Kendi Yaşınızın En Genci Olun."<br>
+                    Hepimiz aynaya baktığımızda kendimizi genç ve güzel hissetmek isteriz.
+                    Zamanla yüzümüzde ortaya çıkan kırışıklıklar kendimizi yaşlı olarak hissetmemizde büyük rol oynamaktadır.
+                    Bu kırışıklıkların oluşmasındaki en önemli pay günlük hayatımızda sıkça kullandığımız mimik kaslarına aittir.
+                    Clostridium Botulinum da bu kasların neden olduğu kırışıklıkların azaltılmasında ve
+                    engellemesinde kullanılan etkili bir estetik yöntemdir.<br><br>
+                    Clostridium Botulinum (Kırışıklık Tedavisi)  Nedir?<br><br>
+                    Clostridium Botulinum bilinenin aksine “yılan zehiri” değildir.
+                    Labaratuvar şartlarında Clostridium botulinum adlı bir bakteriden elde edilen bir toksindir.
+                    Çeşitli tıp alanlarında kullanılan toksinin kırışıklıklar üzerine olan etkisi,
+                    migren tedavisi amacıyla uygulanan hastalarda ortaya çıkan sonuçlar sayesinde keşfedilmiştir.
+                    Hastalar uygulamadan sonra aynı zamanda alın bölgelerindeki kırışıklıklarının da azaldığını ifade etmişlerdir.
+                    Bu etkinin keşfi sonrasında Botulinum Toksini estetik dünyasında yüzdeki kırışıklıkları azaltmak/ortadan kaldırmak
+                    amacıyla yoğun bir şekilde kullanılmaya başlamıştır.<br>
+                    Dünya istatistiklerine göre en fazla ve kolay uygulanan, hasta memnuniyetinin en yüksek olduğu,
+                    sonuçların en kısa sürede ortaya çıktığı uygulamaların başında gelmektedir.
+                    Aynı zamanda "Ameliyatsız Estetik İşlemler" olarak tanımlanan yöntemlerin de ilklerindendir.<br><br>
+                    Uygulama Nasıl Yapılır?<br><br>
+                    Kırışıklıkları oluşturan hareketlerden sorumlu yüz kaslarına çok az miktarda,
+                    ince uçlu özel enjektörler yardımıyla Clostridium Botulinum enjekte edilir.<br><br>
+                    Uygulama İşlemi Ne Kadar Sürer?<br><br>
+                    Ortalama 10-15 dakikadır.<br><br>
+                    Etkisini Nasıl Gösterir?<br><br>
+                    Sinir ve kas arasındaki iletişimi engeller.
+                    Bu sayede uygulandığı kaslarda gevşemeye ve kasların üzerinde kırışıklılarda düzleşmeye neden olur.<br><br>
+                    Clostridium Botulinum (Kırışıklık Tedavisi) Ağrılı Bir İşlem midir?<br><br>
+                    Uygulama esnasında minimal, tolere edilebilecek düzeyde ağrı hissedilebilir.
+                    Bu ağrı işlem öncesi uygulanabilecek lokal anestezik kremlerle daha da hafifletilebilir.<br><br>
+                    Kullanım Alanları<br><br>
+                    Kaş Arası Uygulaması<br>
+                    Alın Uygulaması<br>
+                    Göz Kenarı (Kaz ayakları) Uygulaması<br>
+                    Ağız Çevresi<br>
+                    Çene Uygulaması<br>
+                    Boyun Uygulamaları<br><br>
+                    Ayrıca klasik kullanım alanlarının yanı sıra boyun, dudak üstü, dekolte ve
+                    yanak bölgesindeki ince kırışıklıklara da uygulanmaktadır.<br><br>
+                    Kaş Şekillendirmede Kullanılabilir mi?<br><br>
+                    Kalkık, asimetrik ve düz kaş yapısı kişinin isteğine göre uygun yerlere yapılan enjeksiyonlarla
+                    yeniden şekillendirilebilir.<br><br>
+                    Etkisi Ne Zaman Başlar? Ne Kadar Sürer?<br><br>
+                    Uygulamayı takiben 2. gün etkileri ortaya çıkmaya başlar. 15. gün net etkisini gösterir. 4-6 ay devam eder.<br><br>
+                    İşleminin Herhangi Bir Yan Etkisi var mıdır?<br><br>
+                    Enjeksiyon yapılan noktalarda kırmızılık, hafif şişlikler ve morarma görülebilir.
+                    Çok nadir geçici bir baş ağrısı ortaya çıkabilmektedir.
+                    Bu durumlar da kısa süre içerisinde ve kendiliğinden geçmektedir.<br><br>
+                    Yüzüm Maske gibi İfadesiz ve Donuk Olur mu?<br><br>
+                    Clostridium Botulinum uygulaması alanında uzman doktorlar tarafından doğru noktalara ve
+                    yüz ifadenizi bozmayacak ölçüde yapıldığında böyle bir sorun yaşamazsınız.<br><br>
+                    Clostridium Botulinum (Kırışıklık Tedavisi) Yaptırmadan Önce Dikkat Etmem Geren Bir Şey Var mı?<br><br>
+                    Uygulama öncesinde alkollü içecekler tüketilmemeli, en az üç gün öncesinden;
+                    ginko biloba, kan sulandırıcı ilaçlar, yeşil çay, aspirin ve
+                    non-steroid antiinflamatuvar (romatizmal) ilaçlar kesilmelidir.<br><br>
+                    Uygulama Sonrası Nelere Dikkat Etmeliyim?<br><br>
+                    Uygulama sonrasında en az dört saat boyunca yatar konuma gelmemek ve öne-aşağıya eğilmemek gerekir.
+                    24 saat süresince sıcak su ile duş, sauna, yüzme ve egzersizden kaçınılması tavsiye edilir.<br><br>
+                    Etkisi Geçtiğinde Önceki Halime Göre Daha Kötü Olur muyum?<br><br>
+                    İşlem sonrası ortaya çıkan daha parlak, gergin ve kırışıksız görünüme alışan kişiler
+                    işlemin etkisi geçtiğinde böyle düşünmeye başlayabilirler.
+                    Fakat Clostridium Botulinum işlemi öncesi halinden daha kötü bir görünüm ortaya çıkmaz.<br><br>
+                    Bir Kere Yaptırınca Sürekli Yaptırmak mı Gerekir?<br><br>
+                    Hayır. İşlemin ortaya çıkarmış olduğu olumlu görüntünün devam etmesi isteniyorsa 6 ayda veya
+                    yılda bir uygulama tekrarlanabilir.<br><br>
+                    Herkese Clostridium Botulinum Uygulanabilir mi?<br><br>
+                    Nöromusküler rahatsızlıkları olan kişilerde, uygulama yapılacak bölgede deri hastalıkları olan kişilerde,
+                    hamile veya emziren kadınlarda uygulanmamalıdır.<br><br>
+                    El ve Koltuk Altı Aşırı Terlemesinde Faydası Var mı?<br><br>
+                    Aşırı terlemede Clostridium Botulinum uygulaması ile oldukça başarılı sonuçlar elde edilmektedir.
+                    Burada enjeksiyon kırışıklıkları gidermedeki gibi kaslar yerine ter bezlerine gelen uyarıyı azaltmak amacıyla
+                    cilt altına uygulanmaktadır. Zamanında yapılan tekrarlar tedavinin etkinliğini arttırır.
+                    Ter bezlerini çalıştıran sinirlerin faaliyetlerini azaltarak terlemeyi azaltır.
+                    Etkisi ortalama 6 ay kadar devam eder. Bu durum kişinin sosyal ve psikolojik yaşantısına olumlu yansır.
+                </p>
+            </div>
+            <div class="row featurette my-5 ">
+                <div class="col-md-12 mx-auto pt-5">
+                    <h1 class="display-4 font-italic text-center">Uygulamayı İzlemek için Videoyu Tıklayınız</h1>
+                    <hr class="featurette-divider my-5 bg-white">
+                </div>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mqAs_E9dLNU" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
