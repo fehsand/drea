@@ -9,6 +9,12 @@ def hakkimda(request):
 def basinda(request):
     return render(request, 'mainapp/basinda.html', {})
 
+def egitim(request):
+    return render(request, 'mainapp/egitim.html', {})
+
+def iletisim(request):
+    return render(request, 'mainapp/iletisim.html', {})
+
 def uygulamalar(request):
     return render(request, 'mainapp/uygulamalar.html', {})
 
