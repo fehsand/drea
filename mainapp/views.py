@@ -6,6 +6,9 @@ def anasayfa(request):
 def hakkimda(request):
     return render(request, 'mainapp/hakkımda.html', {})
 
+def basinda(request):
+    return render(request, 'mainapp/basinda.html', {})
+
 def uygulamalar(request):
     return render(request, 'mainapp/uygulamalar.html', {})
 

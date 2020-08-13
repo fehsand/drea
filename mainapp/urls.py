@@ -6,6 +6,7 @@ app_name = "mainapp"
 urlpatterns = [
     path('', views.anasayfa, name='anasayfa'),
     path('hakkimda-dr-ersin-aydin/', views.hakkimda, name='hakkimda'),
+    path('basinda-dr-ersin-aydin/', views.basinda, name='basinda'),
     path('estetik-kozmetik-ve-genel-dermatoloji-cilt-hastalıkları/', views.uygulamalar, name='uygulamalar'),
     path('estetik-kozmetik-ve-genel-dermatoloji-cilt-hastalıkları/kirisiklik-tedavisi/', views.uygulamalar2, name='uygulamalar2'),
     path('estetik-kozmetik-ve-genel-dermatoloji-cilt-hastalıkları/el-ve-koltuk-alti-terleme-tedavisi/', views.uygulamalar3, name='uygulamalar3'),
