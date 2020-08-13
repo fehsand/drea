@@ -8,34 +8,92 @@
             <h1 class="display-4 font-italic border-bottom">İletişim</h1>
         </div>
     </div>
+    <div class="jumbotron p-3 p-md-3 my-3 bg-white rounded text-center ">
+        <div class="col-md-10 p-0 my-0 mx-auto">
+            <h1 class="display-4 font-italic">{{n1}}{{n2}}{{n3}}{{mesaj}}</h1>
+        </div>
+    </div>
     <div class="row featurette my-3">
         <div class="col-md-10 text-center bg-success mx-auto">
             <h2 class="my-5">MAP konacak</h2>
         </div>
     </div>
-    <div class="row featurette my-3">
-        <div class="col-md-4 bg-info mx-auto">
-            <h2 class="featurette-heading my-5">İrtibat Bilgileri</h2>
-            <div class="col-md-12">
-                <p><i class="fa fa-home fa-lg mr-3"></i><a class=""><i> Adres : Ataköy 7,8,9,10. Kısım Mah. Çobançeşme e-5 Yan yol Cad. Ataköy Towers 20/2 B-Blok Kat:15 Daire:157  Bakırköy/İstanbul</i></a></p>
-                <p><i class="fa fa-mobile fa-lg mr-3"></i> <a class=""><i>Cep (Whatsapp) : 0 (541) 503 10 80</i></a></p>
-                <p><i class="fa fa-phone fa-lg mr-3"></i> <a class=""><i>Telefon : 0 (212) 803 10 98</i></a></p>
-            </div>
-        </div>
-        <div class="col-md-4 bg-warning mx-auto">
-            <h2 class="featurette-heading my-5">Sosyal Medya</h2>
-            <div class="col-md-12 ">
-                <p><i class="fa fa-home fa-lg mr-3"></i><a class="" href="https://www.drersinaydin.com/tr/anasayfa">www.drersinaydin.com</a></p>
-                <p><i class="fa fa-envelope fa-lg mr-3"></i><a class="">onlinedermataloji@gmail.com</a></p>
-                <p><i class="fa fa-instagram fa-lg mr-3"></i><a class="" href="https://www.instagram.com/drersinaydin/">instgram</a></p>
-                <p><i class="fa fa-youtube fa-lg mr-3"></i><a class="" href="https://www.youtube.com/channel/UCxNWa3ttu2Lmfrkxx5dTxJg">Youtube</a></p>
-                <p><i class="fa fa-facebook-f fa-lg mr-3"></i><a class="" href="https://www.facebook.com/drersinaydin/"> Facebook</a></p>
-            </div>
+    <div class="jumbotron p-3 p-md-5 my-3 bg-white rounded text-center ">
+        <div class="col-md-10 p-0 my-0 mx-auto">
+            <h1 class="display-4 font-italic border-bottom">İrtibat Bilgileri</h1>
         </div>
     </div>
     <div class="row featurette my-3">
-        <div class="col-md-10 text-center bg-success mx-auto">
-            <h2 class="my-5">iletişim formu konacak</h2>
+        <div class="col-md-3 mx-auto">
+            <h2 class="font-italic border-bottom">Adres:</h2>
+            <p><i class="fa fa-home fa-lg mr-3"></i><a class=""><i>Ataköy 7,8,9,10. Kısım Mah. Çobançeşme e-5 Yan yol Cad. Ataköy Towers 20/2 B-Blok Kat:15 Daire:157  Bakırköy/İstanbul</i></a></p>
+        </div>
+        <div class="col-md-4 mx-auto">
+            <h2 class="font-italic border-bottom">Telefon:</h2>
+            <p><i class="fa fa-mobile fa-lg mr-3"></i> <a class=""><i>Cep (Whatsapp) : 0 (541) 503 10 80</i></a></p>
+            <p><i class="fa fa-phone fa-lg mr-3"></i> <a class=""><i>Telefon : 0 (212) 803 10 98</i></a></p>
+        </div>
+        <div class="col-md-3 mx-auto">
+            <h2 class="font-italic border-bottom">Sosyal Medya</h2>
+            <p><i class="fa fa-home fa-lg mr-3"></i><a class="" href="https://www.drersinaydin.com/tr/anasayfa">www.drersinaydin.com</a></p>
+            <p><i class="fa fa-envelope fa-lg mr-3"></i><a class="">info@drersinaydin.com</a></p>
+            <p><i class="fa fa-instagram fa-lg mr-3"></i><a class="" href="https://www.instagram.com/drersinaydin/">instgram</a></p>
+            <p><i class="fa fa-youtube fa-lg mr-3"></i><a class="" href="https://www.youtube.com/channel/UCxNWa3ttu2Lmfrkxx5dTxJg">Youtube</a></p>
+            <p><i class="fa fa-facebook-f fa-lg mr-3"></i><a class="" href="https://www.facebook.com/drersinaydin/"> Facebook</a></p>
+        </div>
+    </div>
+    <div class="jumbotron p-3 mt-5 bg-white rounded text-center ">
+        <div class="col-md-10 p-0 my-0 mx-auto">
+            <h1 class="display-4 font-italic border-bottom">Mesaj Gönder</h1>
+        </div>
+    </div>
+    <div class="row featurette mb-5">
+        <div class="col-md-10 text-center mx-auto">
+            <form class="m-0 p-0 " action="{% url 'mainapp:iletisim' %}" method="post">
+                {% csrf_token %}
+                <div class="row">
+                    {% trans "İsim" as place_holder_isminiz %}
+                    <div class="col mt-3">
+                        <input class="form-control m-0" type="text" name="isim" placeholder="{{place_holder_isminiz}}" required>
+                        {% if form.errors %}
+                        <p class="lead m-0 p-0 text-danger">{{form.isim.errors.as_text}}</p>
+                        {% endif %}
+                    </div>
+                    {% trans "Soyisim" as place_holder_soyisminiz %}
+                    <div class="col mt-3">
+                        <input class="form-control m-0" type="text" name="soy_isim" placeholder="{{place_holder_soyisminiz}}" required>
+                        {% if form.errors %}
+                        <p class="lead m-0 p-0 text-danger">{{form.soy_isim.errors.as_text}}</p>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="row">
+                    {% trans "Eposta (örnek@eposta.com)" as place_holder_ornek %}
+                    <div class="col mt-3">
+                        <input class="form-control m-0" type="email" name="eposta" placeholder="{{place_holder_ornek}}" required>
+                        {% if form.errors %}
+                        <p class="lead m-0 p-0 text-danger">{{form.eposta.errors.as_text}}</p>
+                        {% endif %}
+                    </div>
+                    {% trans "Telefon" as place_holder_telefon %}
+                    <div class="col mt-3">
+                        <input class="form-control m-0" type="text" name="telefon" placeholder="{{place_holder_telefon}}" required>
+                        {% if form.errors %}
+                        <p class="lead m-0 p-0 text-danger">{{form.eposta.errors.as_text}}</p>
+                        {% endif %}
+                    </div>
+                </div>
+                {% trans "Mesajınızı Yazınız" as place_holder_mesaj %}
+                <div class="form-group mt-3">
+                    <textarea class="form-control m-0" name="mesaj" placeholder="{{place_holder_mesaj}}" rows="5" required></textarea>
+                    {% if form.errors %}
+                    <p class="lead m-0 p-0 text-danger">{{form.mesaj.errors.as_text}}</p>
+                    {% endif %}
+                </div>
+                <div class="form-group mt-3 text-center">
+                    <button class="btn-lg btn-info border-0" type="submit" name="save">{% trans "GÖNDER" %}</button>
+                </div>
+            </form>
         </div>
     </div>
 </main>

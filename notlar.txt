@@ -13,8 +13,8 @@ Run compilemessages:
 django-admin compilemessages
 
 #---------------------MODEL Güncelleme-----------------
-py manage.py makemigrations ruyatabirleri
-py manage.py migrate ruyatabirleri
+py manage.py makemigrations mainapp
+py manage.py migrate mainapp
 
 
 <span class="navbar-text"><i class="fa fa-phone-square fa-3x fa-pull-left"></i>0 (212) 803 10 98<br><small>Bize Ulaşın</small></span>
