@@ -6,7 +6,7 @@ def anasayfa(request):
     return render(request, 'mainapp/anasayfa.html', {})
 
 def hakkimda(request):
-    return render(request, 'mainapp/hakkımda.html', {})
+    return render(request, 'mainapp/hakkimda.html', {})
 
 def basinda(request):
     return render(request, 'mainapp/basinda.html', {})
