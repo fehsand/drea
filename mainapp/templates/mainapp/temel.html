@@ -129,10 +129,8 @@
 <!-- FOOTER -->
 <footer class="container">
     <p class="float-right"><a href="{% url 'mainapp:anasayfa'%}">{% trans "Başa Dön" %}</a></p>
-    <p>Tüm Hakları Saklıdır &copy; 2020 | Dr. Ersin Aydın &middot; <a href="#">{% trans "Gizlilik Politikası" %}</a>
-        &middot; <a href="#">{% trans "Kullanım Şartları" %}</a>
-        &middot; <a href="#">{% trans "İletişim" %}</a>
-        &middot; <a href="#">{% trans "Sosyal Medya" %}</a>
+    <p>Tüm Hakları Saklıdır &copy; 2020 | Dr. Ersin Aydın &middot; <a href="{% url 'mainapp:iletisim'%}">{% trans "İletişim" %}</a>
+        &middot; <a href="{% url 'mainapp:iletisim'%}">{% trans "Sosyal Medya" %}</a>
     </p>
 </footer>
 <!-- Bootstrap core JavaScript
