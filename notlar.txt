@@ -1,3 +1,6 @@
+
+src="https://www.youtube.com/embed/74e5yy3sHIo"
+
 create_map(12, '<b>Dr. Ersin Aydın</b>', 40.9917648, 28.8335263, 'map-canvas');
 
 Github güncelleme:

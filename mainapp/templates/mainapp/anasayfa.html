@@ -15,7 +15,7 @@
                     <div class="carousel-caption text-left">
                         <h1 class="font-italic">{% trans "Estetik ve Kozmetik Dermatoloji" %}</h1>
                         <p class="">{% trans "Merhaba ben Dermatoloji Uzmanı Dr. Ersin Aydın.<br>Sizlere her türlü ...<br>En kısa sürede görüşmek üzere......" %}</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">{% trans "İletişim için Tıklayınız." %}</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="{% url 'mainapp:iletisim'%}" role="button">{% trans "İletişim için Tıklayınız." %}</a></p>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                     <div class="carousel-caption text-left">
                         <h1 class="font-italic">{% trans "Estetik ve Kozmetik Dermatoloji" %}</h1>
                         <p class="">{% trans "Merhaba ben Dermatoloji Uzmanı Dr. Ersin Aydın.<br>Sizlere her türlü ...<br>En kısa sürede görüşmek üzere......" %}</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">{% trans "İletişim için Tıklayınız." %}</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="{% url 'mainapp:iletisim'%}" role="button">{% trans "İletişim için Tıklayınız." %}</a></p>
                     </div>
                 </div>
             </div>
@@ -47,81 +47,79 @@
             </div>
         </div>
         <div class="row featurette my-3 py-3">
-            <div class="col-md-12">
+            <div class="col-md-12 mb-5">
                 <h2 class="featurette-heading font-italic">{% trans "Estetik ve Kozmetik Dermatoloji" %}</h2>
-                <p class="lead text-justify">{% trans "Günümüzde sıkça uygulanan ..." %}</p>
             </div>
             <div class="row w-100">
                 <div class="col-md-4">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar2'%}">Kırışıklık Tedavisi</a></li>
-                        <li class="list-group-item list-group-item-action">Lazer Uygulamaları</li>
-                        <li class="list-group-item list-group-item-action">Diş Sıkma Tedavisi</li>
-                        <li class="list-group-item list-group-item-action">İp Uygulaması</li>
-                        <li class="list-group-item list-group-item-action">Dolgu Uygulamaları</li>
-                        <li class="list-group-item list-group-item-action">Saç Mezoterapisi</li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar9'%}">Lazer Uygulamaları</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar12'%}">Diş Sıkma Tedavisi</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar13'%}">İp Uygulaması</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar14'%}">Dolgu Uygulamaları</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar15'%}">Saç Mezoterapisi</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar4'%}">Somon DNA Aşısı</a></li>
-                        <li class="list-group-item list-group-item-action">Cosmelan-Dermamelan Leke Tedavisi</li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar10'%}">Cosmelan-Dermamelan Leke Tedavisi</a></li>
                         <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar3'%}">El ve Koltuk Altı Terleme Tedavisi</a></li>
-                        <li class="list-group-item list-group-item-action">Fraksiyonel Radyofrekans (Altın iğne)</li>
-                        <li class="list-group-item list-group-item-action">Roller ve Dermapen</li>
-                        <li class="list-group-item list-group-item-action">PRP (Platelet Rich Plasma)</li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar16'%}">Fraksiyonel Radyofrekans (Altın iğne)</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar17'%}">Roller ve Dermapen</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar18'%}">PRP (Platelet Rich Plasma)</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar5'%}">Aqualpeel</a></li>
-                        <li class="list-group-item list-group-item-action">Peeling</li>
-                        <li class="list-group-item list-group-item-action">Cilt Bakımı</li>
-                        <li class="list-group-item list-group-item-action">Mezoterapi</li>
-                        <li class="list-group-item list-group-item-action">Leke Tedavisi</li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar11'%}">Peeling</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar19'%}">Cilt Bakımı</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar20'%}">Mezoterapi</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar21'%}">Leke Tedavisi</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="row featurette my-5 py-3">
-            <div class="col-md-12">
+            <div class="col-md-12 mb-5">
                 <h2 class="featurette-heading">{% trans "Genel Dermatoloji (Cilt Hastalıkları)" %}</h2>
-                <p class="lead text-justify">{% trans "Günümüzde sıkça uygulanan ..." %}</p>
             </div>
             <div class="row w-100">
                 <div class="col-md-4">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar6'%}">Akne (Sivilce)</a></li>
-                        <li class="list-group-item list-group-item-action">Behçet Hastalığı</li>
-                        <li class="list-group-item list-group-item-action">Cinsel Yolla Bulaşan Hastalıklar</li>
-                        <li class="list-group-item list-group-item-action">Cilt Benleri</li>
-                        <li class="list-group-item list-group-item-action">Cilt Kanserleri</li>
-                        <li class="list-group-item list-group-item-action">Ekzema</li>
-                        <li class="list-group-item list-group-item-action">Siğil (Verrü)</li>
-                        <li class="list-group-item list-group-item-action">Ürtiker (Kurdeşen)</li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar22'%}">Behçet Hastalığı</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar23'%}">Cinsel Yolla Bulaşan Hastalıklar</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar24'%}">Cilt Benleri</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar25'%}">Cilt Kanserleri</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar26'%}">Ekzema</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar27'%}">Siğil (Verrü)</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar28'%}">Ürtiker (Kurdeşen)</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar7'%}">Genital Siğil</a></li>
-                        <li class="list-group-item list-group-item-action">Güneşten Korunma</li>
-                        <li class="list-group-item list-group-item-action">Herpes Simpleks Enfeksiyonu (Uçuk)</li>
-                        <li class="list-group-item list-group-item-action">Hiperhidrozis (Aşırı terleme)</li>
-                        <li class="list-group-item list-group-item-action">Hipertrofik Skar/ Keloid</li>
-                        <li class="list-group-item list-group-item-action">Liken Planus</li>
-                        <li class="list-group-item list-group-item-action">Tırnak Hastalıkları</li>
-                        <li class="list-group-item list-group-item-action">Vitiligo</li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar29'%}">Güneşten Korunma</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar30'%}">Herpes Simpleks Enfeksiyonu (Uçuk)</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar31'%}">Hiperhidrozis (Aşırı terleme)</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar32'%}">Hipertrofik Skar/ Keloid</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar33'%}">Liken Planus</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar34'%}">Tırnak Hastalıkları</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar35'%}">Vitiligo</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar8'%}">Mantar Hastalıkları</a></li>
-                        <li class="list-group-item list-group-item-action">Pitriazis Rosea</li>
-                        <li class="list-group-item list-group-item-action">Psoriazis (Sedef Hastalığı)</li>
-                        <li class="list-group-item list-group-item-action">Roza Hastalığı (Gül hastalığı, Gülleme)</li>
-                        <li class="list-group-item list-group-item-action">Saç Hastalıkları</li>
-                        <li class="list-group-item list-group-item-action">Saç Dökülmesi</li>
-                        <li class="list-group-item list-group-item-action">Zona Zoster (gece yanığı)</li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar36'%}">Pitriazis Rosea</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar37'%}">Psoriazis (Sedef Hastalığı)</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar38'%}">Roza Hastalığı (Gül hastalığı, Gülleme)</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar39'%}">Saç Hastalıkları</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar40'%}">Saç Dökülmesi</a></li>
+                        <li class="list-group-item list-group-item-action"><a href="{% url 'mainapp:uygulamalar41'%}">Zona Zoster (gece yanığı)</a></li>
                     </ul>
                 </div>
             </div>

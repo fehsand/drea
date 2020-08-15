@@ -1,0 +1,184 @@
+{% extends 'mainapp/temel.html' %}
+{% load i18n %}
+
+{% block content %}
+<main role="main" class="container">
+    <div class="jumbotron p-3 p-md-5 text-white rounded bg-info">
+        <div class="col-md-12 my-3 px-0">
+            <div class="row featurette my-5 ">
+                <div class="col-md-6 order-md-2 mx-auto pt-5">
+                    <h1 class="display-4 font-italic text-center">Dolgu Uygulamaları</h1>
+                    <hr class="featurette-divider my-5 bg-white">
+                </div>
+                <div class="col-md-4 order-md-1">
+                    <img class="featurette-image img-fluid w-100" src="/static/dolgu_uygulamalari.jpg" alt="dolgu_uygulamalari">
+                </div>
+            </div>
+            <div class="row featurette my-5 ">
+                <p class="lead text-justify p-3">
+                    Gençlik (Nem) Aşısı<br><br>
+                    Gençlik Aşısı Nedir?<br><br>
+                    Genç yaşlardaki ciltlerde parlak ve sağlıklı görüntüyü sağlayan cildimizde doğal olarak bulunan Hyalüronik Asit’tir.
+                    Bu madde, derimizi nemlendirir, cildimize dışarıdan gelen kimyasal ve
+                    fiziksel hasarlara karşı tamponlayıcı özellik gösterir.
+                    Yaşımız ilerledikçe çevresel faktörlerin de etkisi ile cildimizde bulunan hyalüronik asit miktarı azalır.
+                    Bunun sonucu olarak deri elastikiyeti azalır ve kırışıklıklar ortaya çıkmaya başlar.
+                    Gençlik aşısı olarak isimlendirilen uygulama cildimizin çok önemli bileşeni olan hyalüronik asitin
+                    yüz bölgesine minik iğneler yardımıyla uygulanması işlemidir.<br><br>
+                    Gençlik Aşısı Etkisini Nasıl Gösterir?<br><br>
+                    İçerisinde bulunan Hyalüronik Asit sayesinde bol miktarda su tutarak deriyi doğal bir şekilde nemlendirir.
+                    Dokudaki kollajen ve elastin aktivitesi artar, serbest radikallerin etkileri azalır ve
+                    böylelikle cildimizin daha sağlıklı, parlak ve dolgun görünmesini sağlanmış olur.<br><br>
+                    Gençlik Aşısı Nasıl Uygulanır?<br><br>
+                    Cilde 1.5-2 cm aralıklar ile minik iğneler yardımıyla enjekte edilir. Uygulama ortalama 10-20 dakika kadar sürer.<br><br>
+                    Gençlik Aşısı Kaç Seans Uygulanmalıdır?<br><br>
+                    2-4 hafta arayla 3 seans uygulanabilir.
+                    Uygulamanın 6 ayda bir tekrarlanması elde edilen düzelmenin devamı sağlanabilir.<br><br>
+                    Etkisini Ne Zaman Ortaya Çıkar?<br><br>
+                    Uygulama sonrası birkaç gün içerisinde cildinizin nemlendiğini,
+                    ince kırışıklıkların hafiflediğini ve daha parlak bir görünüm aldığını gözlemlemeye başlarsınız.
+                    Uygulama sonrası önceye nazaran daha az nemlendirici kullanma ihtiyacı hissedersiniz.<br><br>
+                    Göz Altı Dolgusu<br><br>
+                    Göz Altı Işık Dolgusu Nedir?<br><br>
+                    Göz altında oluşan çöküklük ve morlukların hafifletilmesi veya
+                    ortadan kaldırılması amacıyla cildimizde de doğal olarak bulunan hyaluronik asit içeren dolgu maddesinin
+                    özel iğne veya kanül (ucu keskin olmayan iğne) yardımıyla göz altına uygulanması işlemidir.<br><br>
+                    Göz Altı Morlukları Neden Oluşuyor?<br><br>
+                    Yorgunluk ve uykusuz kalmak kaynaklı olabileceği gibi kalıtsal nedenler,
+                    yaş ilerledikçe bu bölgeyi destekleyen anatomik yapılardaki kayıplar nedeyle de oluşabilir.
+                    Göz altındaki yapı bozulduğunda, bu bölge ışığı güzel bir şekilde yansıtmamaya başlar ve
+                    bu da gölgelenmeye, mor görüntüye yol açar. Dolayısıyla bu durum da yorgun bir ifadenin oluşmasına neden olur.<br><br>
+                    Göz Altı Dolgu Uygulamasının Diğer Dolgu Uygulamalarından Farkı Var mıdır?<br><br>
+                    Yüz bölgesine uygulanan dolgu maddelerinde olduğu gibi gözaltı dolgusunda da hyalüronik asit içeren ve
+                    bu bölge için üretilmiş özel dolgular kullanıyoruz.<br><br>
+                    Göz Altı Dolgu Uygulamasının Herhangi Bir Yan Etkisi Var mıdır?<br><br>
+                    Bu bölge için özel dolgu maddeleri kullanıldığında yan etki riski oldukça azdır.<br><br>
+                    Göz Altı Dolgusu Ne Kadar Sürer?<br><br>
+                    Yaklaşık 15-20 dakika gibi kısa süreli bir işlemdir.<br><br>
+                    Ağrılı Bir İşlem midir?<br><br>
+                    Uygulama öncesinde anestezik krem uygulandığı için çok ağrı hissetmezsiniz.<br><br>
+                    Göz Altı Dolgusu Yapıldıktan Ne Kadar Zaman Sonra Günlük Yaşama Dönebilirim?<br><br>
+                    Göz Altı Dolgusu yapıldıktan hemen sonra sosyal hayatınıza dönebilirsiniz.
+                    Uygulama sonrasında hafif bir morluk ve kızarıklık oluşabilir ve kısa süre içinde de düzelir.<br><br>
+                    Göz Altı Dolgusunun Etkileri Ne Zaman Görülür?<br><br>
+                    İşlemden hemen sonra uygulamanın etkisini görebilirsiniz. Zamanla etkisi daha da iyi olur.<br><br>
+                    Göz Altı Dolgusu Uygulamasından Sonra Kontrole Gelmem Gerekir mi?<br><br>
+                    İşlemden 2 hafta sonra kontrole gelebilirsiniz.
+                    İhtiyacın fazla olduğu kişilerde, 1 ay ara ile 2 veya 3 seans olarak tekrar uygulama yapılabilir.<br><br>
+                    Göz Altı Dolgusunun Etkisi Ne Kadar Devam Eder?<br><br>
+                    Kişisel farklılıklar olmakla birlikte 6 ay ile 1 yıl arasında süre ile etkisi devam eder.<br><br>
+                    Tekrar Yaptırmam Gerekir mi?<br><br>
+                    Gerekmez ancak tekrarlayan uygulamalar sayesinde iyilik halinin devamı sağlanabilir.<br><br>
+                    Nazolabial Dolgusu<br><br>
+                    Neden Nazolabial Dolgu?<br><br>
+                    Yaş ilerledikçe yüzümüzde volüm kaybına bağlı olarak, yer çekiminin de etkisiyle sarkmalar ve
+                    çizgilerde belirginleşmeler oluşmaya başlar. Özellikle yüzün orta kısmında,
+                    burun kenarından ağız köşelerine doğru oluşan çizgilenmeler
+                    (Nazolabial çizgiler, burun kenarı çizgileri, gülme çizgileri) daha belirgin hale gelerek yorgun,
+                    üzgün bir ifadeye neden olur. Nazolabial dolgu uygulaması ile dolgunun hacim etkisinden yararlanarak
+                    bu çizgiler giderilebilir ve bu sayede daha genç bir görünüm sağlanabilir.<br><br>
+                    Nazolabial Dolgu Uygulamasının Herhangi Bir Yan Etkisi Var mıdır?<br><br>
+                    Bu bölgede tercih edilen hyaluronik asit içerikli dolguların alerji ve
+                    istenmeyen reaksiyonlara neden olma riski oldukça düşüktür.<br><br>
+                    Nazolabial Dolgu Uygulaması Ne Kadar Sürer?<br><br>
+                    Yaklaşık 10 dakika gibi kısa süreli bir işlemdir.<br><br>
+                    Ağrılı Bir İşlem midir?<br><br>
+                    Uygulama öncesinde anestezik krem uygulandığı için çok ağrı hissetmezsiniz.<br><br>
+                    Ne Kadar Zaman Sonra Günlük Yaşantıma Dönebilirim?<br><br>
+                    Uygulama yapıldıktan hemen sonra mimik kaslarında bir problem olmadan, sosyal hayatınıza dönebilirsiniz.
+                    İşlem sonrasında hafif kızarıklık oluşabilir ve bir gün içinde de düzelir.<br><br>
+                    Nazolabial Dolgunun Etkileri Ne Zaman Görülür?<br><br>
+                    İşlemden hemen sonra uygulamanın etkisini görebilirsiniz.
+                    10 gün içerisinde uygulamanın etkisi daha net olarak ortaya çıkar.<br><br>
+                    Nazolabial Dolgu Uygulamasından Sonra Kontrole Gelmem Gerekir mi?<br><br>
+                    İşlemden 2 hafta sonra kontrole gelebilirsiniz.<br><br>
+                    Nazolabial Dolgunun Etkisi Ne Kadar Devam Eder?<br><br>
+                    Kişisel farklılıklar olmakla birlikte hyaluronik asit içerikli dolguların bu bölgede kalıcılığı ortalama bir yıldır.
+                    Tamamen erimeden yenilenmesi dolgunun etkisinin daha uzun süre devam etmesini sağlayacaktır.<br><br>
+                    Tekrar Yaptırmam Gerekir mi?<br><br>
+                    Gerekmez ancak tekrarlayan uygulamalar sayesinde elde edilen görünümün devamı sağlanabilir.<br><br>
+                    Dudak Dolgusu<br><br>
+                    Dudakların estetik görünümde ve kendimizi ifade etmede anahtar bir rolü vardır.
+                    Simetrik, orantılı ve dolgun dudaklara sahip olmak kişiye ayrı bir çekicilik kazandırır.
+                    Yaş ilerledikçe cildimizde olduğu gibi dudaklarımızda da hyalüronik asit kaybı yaşanır;
+                    dudaklar incelmeye, dolgunluklarını kaybetmeye başlar.
+                    Dudak dolgu uygulaması ile hem yapısal olarak ince dudaklara daha dolgun bir görünüm vermek
+                    hem de zaman içerisinde hacmini kaybeden dudaklara eski hacimlerini geri kazandırarak doğal ve
+                    çekici bir görünüm elde etmek mümkündür.<br><br>
+                    Dudak Dolgusu Hangi Madde ile Yapılır?<br><br>
+                    Dudak Dolgu işlemini cildimizde de doğal olarak bulunan hyalüronik asit içerikli dolgu maddeleri ile gerçekleştiriyoruz.
+                    Bu nedenle hyalüronik asit uygulamasına bağlı istenmeyen yan etkilerin gelişme riski oldukça enderdir.<br><br>
+                    Dudak Dolgusu Nasıl Uygulanır?<br><br>
+                    İşlem öncesinde dudaklara ağrı olmasını engellemek amacıyla anestezik krem sürülür.
+                    Sonrasında hyalüronik asit içeren çok ince uçlu özel enjektörler ile dudak içerisine uygulama yapılır.
+                    İşlem ortalama 10-15 dakika kadar sürer.<br><br>
+                    Dudak Dolgusu ile Dudaklarda Nasıl Bir Değişim Olur?<br><br>
+                    İnce dudak yapısı hacimlendirilir varsa eğer dudaklardaki asimetriler giderilebilir,
+                    dudak konturunu belirginleştirilebilir, dudak hacmi artırılabilir,
+                    dudak köşeleri yeniden şekillendirilir ve dudakların nemlenmesi sağlanır.<br><br>
+                    Dudak Dolgusu Yaptırdıktan Sonra Günlük Hayatıma Devam Edebilir miyim?<br><br>
+                    Uygulama sonrasında sosyal yaşamınıza hemen geri dönebilirsiniz.<br><br>
+                    Dudak Dolgusu ile Doğal, Orantılı Bir Görünüm Elde Etmek Mümkün müdür?<br><br>
+                    Çeşitli bilim dallarında ve sanatta bir bütünün parçaları arasındaki uyumu yansıtan geometrik ve
+                    sayısal orana altın oran denir. Bu orana sahip olan kişiler daha çekici, alımlı olarak algılanır.
+                    Yüzün ve diğer vücut kısımlarının olduğu gibi dudaklarımızın da bir altın oranı vardır.
+                    Bu oran gözetilerek yapılan dudak dolgu uygulamaları çok daha doğal sonuçlanır.
+                    Kişinin yüz yapısı ve tercihine göre de farklı uygulamalar yapılabilir.<br><br>
+                    Dudak Dolgusundan Sonra Nelere Dikkat Etmeliyim?<br><br>
+                    Uygulamadan sonra dudaklarda geçici ödem ortaya çıkabilir.
+                    Bu durum birkaç gün içeresinde düzelir.
+                    İşlemden sonra en az 2 saat süreyle dudaklara çok sıcak ve çok soğuk temasından kaçınmak gerekir.
+                    Ayrıca 1 gün süreyle ruj sürülmemeli, 4-5 gün sert masajlardan kaçınılmalıdır.<br><br>
+                    Dudak Dolgusunun Etkisi Ne Zaman Görülür?<br><br>
+                    İşlemden hemen sonra etkisi görülebilir.
+                    Ancak uygulama esnasında oluşan ödem geçtikten sonra etkisi daha net olarak ortaya çıkar.<br><br>
+                    Dudak Dolgusunun Etkisi Ne Kadar Sürer?<br><br>
+                    Hyalüronik asit içeren dolguların etkisi 6-8 ay civarındadır.
+                    İşlemin zamanında tekrarlanması ile bu süre uzatılabilir ve birkaç uygulamadan sonra hacim daha kalıcı hale gelir.<br><br>
+                    Dudak Dolgusu Uygulaması Güvenli midir? Riskleri Var mıdır?<br><br>
+                    Hyalüronik asit içeren dudak dolguları alanında tecrübeli hekimler tarafından yapıldığında son derece güvenlidir.
+                    İşlem sonrasında hafif bir şişlik, kızarıklık ya da morarma gibi etkiler ortaya çıkabilir
+                    ancak bunların hepsi en çok birkaç gün içinde tamamen kaybolur.<br><br>
+                    Elmacık Dolgusu<br><br>
+                    Neden Elmacık Dolgusu?<br><br>
+                    Belirgin elmacık kemikleri yüz güzelliğinin anahtar noktalarından biridir.
+                    Elmacık bölgesinin ideal hacimlerde olması,
+                    yüze ters üçgen şeklini vererek yüzdeki “altın oran”ın elde edilmesini sağlar.
+                    Yüzü bu orana sahip kişiler çekici, alımlı ve daha genç olarak algılanırlar.
+                    Yaş ilerledikçe elmacık kemiklerindeki kayıplar ve bu bölgeyi destekleyen yağ pedlerindeki azalmalar
+                    nedeniyle yüz bu ters üçgen görünümünü kaybeder. Bazı kişilerde bu durum doğuştan da olabilmektedir.
+                    Yer çekiminin de etkisiyle orta yüz bölgesinde hacim kaybı ve sarkmalar oluşmaya başlar.
+                    Elmacık bölgesine yapılan dolgu uygulamaları ile bu kayıplar eski haline getirilebilir.
+                    Bu uygulama ile elmacık bölgesindeki anatomik yapıların desteklenmesi sayesinde yüzde lifting (kaldırma) etkisi olur.
+                    Bu sayede burun kenarı çizgilerinde (Nazolabial çizgiler) azalma,
+                    ağız kenarında bulunan çizgilerde (Marionette çizgileri) hafifleme ve
+                    hatta göz altındaki çizgilerde azalma meydana gelir.
+                    Böylece yüzün diğer bölgelerine yapılacak olan dolgu uygulamalarının sonuçları çok daha güzel olur.<br><br>
+                    Elmacık Dolgusu Sonrası Yapay Bir Görüntü Olur mu?<br><br>
+                    Elmacık bölgesindeki belli noktalara, doğru miktarda,
+                    hyalüronik asit içeren dolgu maddesi uygulandığında son derece doğal bir sonuç elde edilir.<br><br>
+                    Elmacık Dolgu Uygulaması Ne Kadar Sürer?<br><br>
+                    Yaklaşık 15-20 dakika gibi kısa süreli bir işlemdir.<br><br>
+                    Ağrılı Bir İşlem midir?<br><br>
+                    Uygulama öncesinde anestezik krem uygulandığı için çok ağrı hissetmezsiniz.<br><br>
+                    Elmacık Dolgusunun Etkisi Ne Kadar Devam Eder?<br><br>
+                    Kişisel farklılıklar olmakla birlikte, 1 yıl ile 2 yıl arasında süre ile etkisi devam eder.<br><br>
+                    Tekrar Yaptırmam Gerekir mi?<br><br>
+                    Gerekmez; ancak tekrarlayan uygulamalar sayesinde iyilik halinin devamı sağlanabilir.<br><br>
+                    Elmacık Dolgu İşlemi Sonrası İşime Devam Edebilir miyim?<br><br>
+                    İşinize ve tüm sosyal aktivitelerinize devam edebilirsiniz.<br><br>
+                </p>
+            </div>
+            <div class="row featurette my-5 ">
+                <div class="col-md-12 mx-auto pt-5">
+                    <h1 class="display-4 font-italic text-center">Uygulamayı İzlemek için Videoyu Tıklayınız</h1>
+                    <hr class="featurette-divider my-5 bg-white">
+                </div>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/74e5yy3sHIo" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

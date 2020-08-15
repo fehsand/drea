@@ -88,3 +88,104 @@ def uygulamalar7(request):
 def uygulamalar8(request):
     return render(request, 'mainapp/uygulamalar_mantar_hastaliklari.html', {})
 
+def uygulamalar9(request):
+    return render(request, 'mainapp/uygulamalar_lazer_uygulamalari.html', {})
+
+def uygulamalar10(request):
+    return render(request, 'mainapp/uygulamalar_cosmelan_dermamelan_leke_tedavisi.html', {})
+
+def uygulamalar11(request):
+    return render(request, 'mainapp/uygulamalar_peeling.html', {})
+
+def uygulamalar12(request):
+    return render(request, 'mainapp/uygulamalar_dis_sikma_tedavisi.html', {})
+
+def uygulamalar13(request):
+    return render(request, 'mainapp/uygulamalar_ip_uygulamasi.html', {})
+
+def uygulamalar14(request):
+    return render(request, 'mainapp/uygulamalar_dolgu_uygulamalari.html', {})
+
+def uygulamalar15(request):
+    return render(request, 'mainapp/uygulamalar_sac_mezoterapisi.html', {})
+
+def uygulamalar16(request):
+    return render(request, 'mainapp/uygulamalar_fraksiyonel-radyofrekans-altin-igne.html', {})
+
+def uygulamalar17(request):
+    return render(request, 'mainapp/uygulamalar_roller-ve-dermapen.html', {})
+
+def uygulamalar18(request):
+    return render(request, 'mainapp/uygulamalar_prp-platelet-rich-plasma.html', {})
+
+def uygulamalar19(request):
+    return render(request, 'mainapp/uygulamalar_cilt-bakimi.html', {})
+
+def uygulamalar20(request):
+    return render(request, 'mainapp/uygulamalar_mezoterapi.html', {})
+
+def uygulamalar21(request):
+    return render(request, 'mainapp/uygulamalar_leke-tedavisi.html', {})
+
+def uygulamalar22(request):
+    return render(request, 'mainapp/uygulamalar_behcet-hastaligi.html', {})
+
+def uygulamalar23(request):
+    return render(request, 'mainapp/uygulamalar_cinsel-yolla-bulasan-hastaliklar.html', {})
+
+def uygulamalar24(request):
+    return render(request, 'mainapp/uygulamalar_cilt-benleri.html', {})
+
+def uygulamalar25(request):
+    return render(request, 'mainapp/uygulamalar_cilt-kanserleri.html', {})
+
+def uygulamalar26(request):
+    return render(request, 'mainapp/uygulamalar_ekzema.html', {})
+
+def uygulamalar27(request):
+    return render(request, 'mainapp/uygulamalar_sigil-verru.html', {})
+
+def uygulamalar28(request):
+    return render(request, 'mainapp/uygulamalar_urtiker-kurdesen.html', {})
+
+def uygulamalar29(request):
+    return render(request, 'mainapp/uygulamalar_gunesten-korunma.html', {})
+
+def uygulamalar30(request):
+    return render(request, 'mainapp/uygulamalar_herpes-simpleks-enfeksiyonu-ucuk.html', {})
+
+def uygulamalar31(request):
+    return render(request, 'mainapp/uygulamalar_hiperhidrozis-asiri-terleme.html', {})
+
+def uygulamalar32(request):
+    return render(request, 'mainapp/uygulamalar_hipertrofik-skar-keloid.html', {})
+
+def uygulamalar33(request):
+    return render(request, 'mainapp/uygulamalar_liken-planus.html', {})
+
+def uygulamalar34(request):
+    return render(request, 'mainapp/uygulamalar_tirnak-hastaliklari.html', {})
+
+def uygulamalar35(request):
+    return render(request, 'mainapp/uygulamalar_vitiligo.html', {})
+
+def uygulamalar36(request):
+    return render(request, 'mainapp/uygulamalar_pitriazis-rosea.html', {})
+
+def uygulamalar37(request):
+    return render(request, 'mainapp/uygulamalar_psoriazis-sedef-hastaligi.html', {})
+
+def uygulamalar38(request):
+    return render(request, 'mainapp/uygulamalar_roza-hastaligi-gul-hastaligi-gulleme.html', {})
+
+def uygulamalar39(request):
+    return render(request, 'mainapp/uygulamalar_sac-hastaliklari.html', {})
+
+def uygulamalar40(request):
+    return render(request, 'mainapp/uygulamalar_sac-dokulmesi.html', {})
+
+def uygulamalar41(request):
+    return render(request, 'mainapp/uygulamalar_zona-zoster-gece-yanigi.html', {})
+
+
+
