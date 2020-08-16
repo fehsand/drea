@@ -1,0 +1,36 @@
+{% extends 'mainapp/temel.html' %}
+{% load i18n %}
+
+{% block content %}
+<main role="main" class="container">
+    <div class="jumbotron p-3 p-md-5 my-3 bg-white rounded text-center ">
+        <div class="col-md-10 px-0 py-5 mx-auto">
+            <h1 class="display-4 font-italic">{% trans "DANIŞAN GÖRÜŞLERİ" %}</h1>
+        </div>
+        <hr class="featurette-divider my-5 bg-white">
+        <div class="row featurette my-5 py-3 ">
+            <div class="col-md-5 order-md-2 mx-auto text-justify">
+                <p class="lead"><br>Merhaba ben xxx,<br> Diş sıkma problemim vardı ve beni çok rahatsız ediyordu. Ersin beyi tavsiye ettiler. Kısa sürede ağrısız bir uygulama sonucu problemim ortadan kalktı. Çok memnun kaldım.<br>Herkese tavsiye ediyorum.</p>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bBSuIbqKfoo" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <hr class="featurette-divider my-5 bg-white">
+        <div class="row featurette my-5 py-3 ">
+            <div class="col-md-5 order-md-2 mx-auto text-justify">
+                <p class="lead"><br>Merhaba ben xxx,<br> Acısız ve etkili bir uygulama için Ersin hocamı tercih ettim.
+                    Kısa sürede güzel sonuçlar aldık. Çok memnun kaldım.<br>Herkese tavsiye ediyorum.</p>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mqAs_E9dLNU" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <hr class="featurette-divider my-5 bg-white">
+    </div>
+</main>
+{% endblock %}

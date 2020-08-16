@@ -14,6 +14,9 @@ def basinda(request):
 def egitim(request):
     return render(request, 'mainapp/egitim.html', {})
 
+def danisan_yorum(request):
+    return render(request, 'mainapp/danisan_yorum.html', {})
+
 def iletisim(response):
     if response.method == "POST":
         form = iletisimForm (response.POST)

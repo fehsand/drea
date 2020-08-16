@@ -9,6 +9,7 @@ urlpatterns = [
     path('basinda-dr-ersin-aydin/', views.basinda, name='basinda'),
     path('egitim-dr-ersin-aydin/', views.egitim, name='egitim'),
     path('iletisim/', views.iletisim, name='iletisim'),
+    path('danisan-gorusleri-ve-yorumlari/', views.danisan_yorum, name='danisan_yorum'),
     path('estetik-kozmetik-ve-genel-dermatoloji-cilt-hastaliklari/', views.uygulamalar, name='uygulamalar'),
     path('estetik-kozmetik-ve-genel-dermatoloji-cilt-hastaliklari/kirisiklik-tedavisi/', views.uygulamalar2, name='uygulamalar2'),
     path('estetik-kozmetik-ve-genel-dermatoloji-cilt-hastaliklari/el-ve-koltuk-alti-terleme-tedavisi/', views.uygulamalar3, name='uygulamalar3'),

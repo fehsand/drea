@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-14 23:56+0300\n"
+"POT-Creation-Date: 2020-08-16 22:59+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,8 +27,10 @@ msgstr "Aesthetic and Cosmetic Dermatology"
 #: .\mainapp\templates\mainapp\anasayfa.html:17
 #: .\mainapp\templates\mainapp\anasayfa.html:27
 msgid ""
-"Merhaba ben Dermatoloji Uzmanı Dr. Ersin Aydın.<br>Sizlere her türlü ..."
-"<br>En kısa sürede görüşmek üzere......"
+"Merhaba ben Dermatoloji Uzmanı Dr. Ersin Aydın.<br>Güzelliğinizi yeniden "
+"tanımlamaya hazır mısınız?<br>Bıçak altına yattığınız ve bir çok zahmete "
+"katlandığınız günler eskide kaldı.<br>Cidinizi yenileyerek güzelliğinizi öne "
+"çıkarmak ve kendi yaşınızız en genci olmak için sizleri bekliyoruz."
 msgstr ""
 
 #: .\mainapp\templates\mainapp\anasayfa.html:18
@@ -40,37 +42,207 @@ msgstr "Contact Us"
 msgid "TANI VE TEDAVİSİ YAPILAN DURUMLAR"
 msgstr "CONDITIONS WE DIAGNOSE & TREAT"
 
-#: .\mainapp\templates\mainapp\anasayfa.html:52
-#: .\mainapp\templates\mainapp\anasayfa.html:89
-msgid "Günümüzde sıkça uygulanan ..."
+#: .\mainapp\templates\mainapp\anasayfa.html:46
+msgid ""
+"Yaygın durumdan komplekse kadar tüm cilt durumlarını teşhis ediyor ve tedavi "
+"ediyoruz. Uygulamalarımız iki bölüme ayrılıyor. Estetik ve Kozmetik "
+"Dermatoloji ile Genel Dermatoloji (Cilt Hastalıkları)."
+msgstr "We diagnose and treat all skin conditions, from the common to the complex. Here are some of the common conditions we see:"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:56
+msgid "Kırışıklık Tedavisi"
+msgstr "Skin Aging"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:57
+msgid "Lazer Uygulamaları"
+msgstr "Laser Applications"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:58
+msgid "Diş Sıkma Tedavisi"
+msgstr "Masseter Botox for Bruxism"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:59
+msgid "İp Uygulaması"
+msgstr "Thread Applications"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:60
+msgid "Dolgu Uygulamaları"
+msgstr "Botulinum Applications (Botox)"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:61
+msgid "Saç Mezoterapisi"
+msgstr "Hair Mesotherapy"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:66
+msgid "Somon DNA Aşısı"
+msgstr "Youth Vaccine With Salmon DNA"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:67
+msgid "Cosmelan-Dermamelan Leke Tedavisi"
+msgstr "Skin Spots And Cosmelan Dermamelan Treatment Method"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:68
+msgid "El ve Koltuk Altı Terleme Tedavisi"
 msgstr ""
 
-#: .\mainapp\templates\mainapp\anasayfa.html:88
+#: .\mainapp\templates\mainapp\anasayfa.html:69
+msgid "Fraksiyonel Radyofrekans (Altın iğne)"
+msgstr "Golden Needle-Fractional Radiofrequency"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:70
+msgid "Roller ve Dermapen"
+msgstr "Dermapen–Dermaroller (Microneedling) Applications"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:71
+msgid "PRP (Platelet Rich Plasma)"
+msgstr "PRP (Platelet Rich Plasma)"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:76
+msgid "Aqualpeel"
+msgstr "Aqualpeel"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:77
+msgid "Peeling"
+msgstr "Peeling"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:78
+msgid "Cilt Bakımı"
+msgstr "Skincare"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:79
+msgid "Mezoterapi"
+msgstr "Mesotherapy"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:80
+msgid "Leke Tedavisi"
+msgstr "Skin Spots And Treatment Methods"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:87
 msgid "Genel Dermatoloji (Cilt Hastalıkları)"
 msgstr "Skin Diseases"
 
-#: .\mainapp\templates\mainapp\anasayfa.html:132
-msgid "BASINDA DR. ERSİN AYDIN"
-msgstr "Press"
+#: .\mainapp\templates\mainapp\anasayfa.html:92
+msgid "Akne (Sivilce)"
+msgstr "Acne and Acne Scar Treatment"
 
-#: .\mainapp\templates\mainapp\anasayfa.html:147
-#: .\mainapp\templates\mainapp\anasayfa.html:155
-#: .\mainapp\templates\mainapp\anasayfa.html:171
+#: .\mainapp\templates\mainapp\anasayfa.html:93
+msgid "Behçet Hastalığı"
+msgstr ""
+
+#: .\mainapp\templates\mainapp\anasayfa.html:94
+msgid "Cinsel Yolla Bulaşan Hastalıklar"
+msgstr ""
+
+#: .\mainapp\templates\mainapp\anasayfa.html:95
+msgid "Cilt Benleri"
+msgstr "Nevus"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:96
+msgid "Cilt Kanserleri"
+msgstr "Skin Cancer"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:97
+msgid "Ekzema"
+msgstr ""
+
+#: .\mainapp\templates\mainapp\anasayfa.html:98
+msgid "Siğil (Verrü)"
+msgstr "Verruca"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:99
+msgid "Ürtiker (Kurdeşen)"
+msgstr "Urticaria (Hives)"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:104
+msgid "Genital Siğil"
+msgstr "Genital Verruca "
+
+#: .\mainapp\templates\mainapp\anasayfa.html:105
+msgid "Güneşten Korunma"
+msgstr "Sun Protection"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:106
+msgid "Herpes Simpleks Enfeksiyonu (Uçuk)"
+msgstr "Herpes"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:107
+msgid "Hiperhidrozis (Aşırı terleme)"
+msgstr "Hyperhidrosis"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:108
+msgid "Hipertrofik Skar/ Keloid"
+msgstr "Hipertrofik Skar Keloid"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:109
+msgid "Liken Planus"
+msgstr "Lichen Planus"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:110
+msgid "Tırnak Hastalıkları"
+msgstr "Nail Diseases"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:111
+msgid "Vitiligo"
+msgstr "Vitiligo"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:116
+msgid "Mantar Hastalıkları"
+msgstr "Fungal Diseases"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:117
+msgid "Pitriazis Rosea"
+msgstr "Pityriasis Rosea"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:118
+msgid "Psoriazis (Sedef Hastalığı)"
+msgstr "Psoriasis"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:119
+msgid "Roza Hastalığı (Gül hastalığı, Gülleme)"
+msgstr "Rosacea"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:120
+msgid "Saç Hastalıkları"
+msgstr "Hair Disorders"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:121
+msgid "Saç Dökülmesi"
+msgstr "Hair Loss"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:122
+msgid "Zona Zoster (gece yanığı)"
+msgstr "Zona"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:129
+msgid "Basında Dr. Ersin AYDIN"
+msgstr "Press (Ersin AYDIN, MD)"
+
+#: .\mainapp\templates\mainapp\anasayfa.html:144
+#: .\mainapp\templates\mainapp\anasayfa.html:152
+#: .\mainapp\templates\mainapp\anasayfa.html:168
 msgid "İzlemek için Tıklayınız."
 msgstr "Click for Watching"
 
-#: .\mainapp\templates\mainapp\anasayfa.html:163
+#: .\mainapp\templates\mainapp\anasayfa.html:160
 msgid "Ziyaret için Tıklayınız."
 msgstr "Click for Visiting"
 
-#: .\mainapp\templates\mainapp\anasayfa.html:187
+#: .\mainapp\templates\mainapp\anasayfa.html:185
+#: .\mainapp\templates\mainapp\danisan_yorum.html:8 .\notlar.txt:34
 msgid "DANIŞAN GÖRÜŞLERİ"
 msgstr "PATIENT TESTIMONIAL"
 
-#: .\mainapp\templates\mainapp\anasayfa.html:200
-#: .\mainapp\templates\mainapp\anasayfa.html:209
-msgid "Videoyu İzlemek için Tıklayınız."
+#: .\mainapp\templates\mainapp\anasayfa.html:190
+msgid ""
+"<br>Merhaba ben xxx,<br> Diş sıkma problemim vardı ve beni çok rahatsız "
+"ediyordu. Ersin beyi tavsiye ettiler. Kısa sürede ağrısız bir uygulama "
+"sonucu problemim ortadan kalktı. Çok memnun kaldım.<br>Herkese tavsiye "
+"ediyorum."
 msgstr ""
+
+#: .\mainapp\templates\mainapp\anasayfa.html:191
+msgid "Diğer Yorumlar için Tıklayınız..."
+msgstr "Click for Other Comments"
 
 #: .\mainapp\templates\mainapp\hakkimda.html:8
 msgid "Dermatoloji Uzmanı Dr. Ersin AYDIN"
@@ -102,69 +274,90 @@ msgstr "SEND"
 
 #: .\mainapp\templates\mainapp\temel.html:7
 msgid ""
-"DERMATOLOG Dr. Ersin AYDIN (NATUREL BOTOKS-BURUN DOLGUSU-MASSETER BOTOKS)"
+"Merhaba ben Dermatoloji Uzmanı Dr. Ersin Aydın. Güzelliğinizi yeniden "
+"tanımlamaya hazır mısınız? Bıçak altına yattığınız ve bir çok zahmete "
+"katlandığınız günler eskide kaldı. Cidinizi yenileyerek güzelliğinizi öne "
+"çıkarmak ve kendi yaşınızız en genci olmak için sizleri bekliyoruz."
 msgstr ""
 
 #: .\mainapp\templates\mainapp\temel.html:9
-msgid "key words leri buraya yazacağız"
+msgid ""
+"Uzman Dermatolog Dr. Ersin Aydın, Dr. Ersin Aydın, Ersin Aydın, Estetik ve "
+"Kozmetik Dermatoloji, Genel Dermatoloji, Cilt Hastalıkları,El ve Koltuk Altı "
+"Terleme Tedavisi, Aqualpeel, Lazer Uygulamaları, Diş Sıkma Tedavisi, İp "
+"Uygulaması, Dolgu Uygulamaları, Somon DNA Aşısı, Leke Tedavisi, Saç "
+"Mezoterapisi, Fraksiyonel Radyofrekans, Altın iğne, Mezoterapi, Peeling, "
+"Kırışıklık Tedavisi, PRP (Platelet Rich Plasma), Cilt Bakımı, Roller ve "
+"Dermapen, Aşırı terleme (El ve Koltuk Altı) tedavisi, Cosmelan-Dermamelan "
+"Leke Tedavisi, Akne, Sivilce, Behçet Hastalığı, Cinsel Yolla Bulaşan "
+"Hastalıklar, Cilt Benleri, Cilt Kanserleri, Ekzema, Genital Siğil, Güneşten "
+"Korunma, Herpes Simpleks Enfeksiyonu, Uçuk, Hiperhidrozis, Aşırı terleme, "
+"Hipertrofik Skar Keloid, Liken Planus, Mantar Hastalıkları, Pitriazis Rosea, "
+"Psoriazis, Sedef Hastalığı, Roza Hastalığı, Gül hastalığı, Gülleme, Saç "
+"Hastalıkları, Saç Dökülmesi, Siğil, Verrü, Ürtiker, Kurdeşen, Tırnak "
+"Hastalıkları, Vitiligo, Zona Zoster, gece yanığı"
 msgstr ""
 
 #: .\mainapp\templates\mainapp\temel.html:12
 msgid "Dr. Ersin AYDIN"
 msgstr "Ersin AYDIN, MD"
 
-#: .\mainapp\templates\mainapp\temel.html:43
+#: .\mainapp\templates\mainapp\temel.html:44
 msgid "Hakkımda"
 msgstr "About Me"
 
-#: .\mainapp\templates\mainapp\temel.html:46
+#: .\mainapp\templates\mainapp\temel.html:47
 msgid "Uygulamalar"
 msgstr "Applications"
 
-#: .\mainapp\templates\mainapp\temel.html:49
+#: .\mainapp\templates\mainapp\temel.html:50
 msgid "Basında"
 msgstr "Press"
 
-#: .\mainapp\templates\mainapp\temel.html:52
+#: .\mainapp\templates\mainapp\temel.html:53
 msgid "Eğitim"
-msgstr ""
+msgstr "Seminar"
 
-#: .\mainapp\templates\mainapp\temel.html:55
-#: .\mainapp\templates\mainapp\temel.html:132
+#: .\mainapp\templates\mainapp\temel.html:56
+#: .\mainapp\templates\mainapp\temel.html:133
 msgid "İletişim"
 msgstr "Contact Us"
 
-#: .\mainapp\templates\mainapp\temel.html:113
+#: .\mainapp\templates\mainapp\temel.html:114
 msgid "Hesabım"
 msgstr "My Account"
 
-#: .\mainapp\templates\mainapp\temel.html:114
+#: .\mainapp\templates\mainapp\temel.html:115
 msgid "Çıkış Yap"
 msgstr "Log Out"
 
-#: .\mainapp\templates\mainapp\temel.html:121
+#: .\mainapp\templates\mainapp\temel.html:122
 msgid "Giriş Yap"
 msgstr "Log in"
 
-#: .\mainapp\templates\mainapp\temel.html:131
+#: .\mainapp\templates\mainapp\temel.html:132
 msgid "Başa Dön"
 msgstr "Back to Top"
 
-#: .\mainapp\templates\mainapp\temel.html:133
+#: .\mainapp\templates\mainapp\temel.html:134
 msgid "Sosyal Medya"
 msgstr "Social Media"
 
-#: .\mainapp\views.py:28
+#: .\mainapp\views.py:31
 msgid "Kutucukları Doldurunuz."
 msgstr "Fill in the blanks"
 
-#: .\mainapp\views.py:58
+#: .\mainapp\views.py:61
 msgid "Gönderiniz başarıyla kaydedildi."
 msgstr "Your post has been successfully saved."
 
-#: .\mainapp\views.py:61
+#: .\mainapp\views.py:64
 msgid "Lütfen Formu Doldurunuz."
 msgstr "Please, Fill in the form."
+
+#: .\notlar.txt:47 .\notlar.txt:56
+msgid "Videoyu İzlemek için Tıklayınız."
+msgstr ""
 
 #: .\sanor\Lib\site-packages\django\contrib\messages\apps.py:7
 msgid "Messages"
@@ -1340,3 +1533,6 @@ msgstr ""
 #: .\sanor\Lib\site-packages\django\views\templates\default_urlconf.html:408
 msgid "Connect, get help, or contribute"
 msgstr ""
+
+#~ msgid "BASINDA DR. ERSİN AYDIN"
+#~ msgstr "Press"
