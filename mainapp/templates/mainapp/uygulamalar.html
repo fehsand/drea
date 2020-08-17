@@ -5,19 +5,19 @@
 <main role="main" class="container">
     <div class="jumbotron p-3 p-md-5 my-5 bg-white rounded text-center ">
         <div class="col-md-10 p-0 my-0 mx-auto">
-            <h1 class="display-4 font-italic border-bottom">UYGULAMALAR</h1>
+            <h1 class="display-4 font-italic border-bottom">{% trans "UYGULAMALAR" %}</h1>
         </div>
     </div>
 </main>
 <div class="jumbotron p-3 p-md-5 text-white rounded bg-info">
     <div class="col-md-12 px-0">
-        <h1 class="display-4 font-italic">Estetik ve Kozmetik Dermatoloji</h1>
+        <h1 class="display-4 font-italic">{% trans "Estetik ve Kozmetik Dermatoloji" %}</h1>
         <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Kırışıklık Tedavisi</h2>
-                <p class="lead">"Kendi Yaşınızın En Genci Olun."<br> Hepimiz aynaya baktığımızda kendimizi genç ve güzel hissetmek isteriz. Zamanla yüzümüzde ortaya çıkan kırışıklıklar kendimizi yaşlı olarak hissetmemizde büyük rol oynamaktadır. Bu kırışıklıkların oluşmasındaki en önemli pay günlük hayatımızda sıkça kullandığımız mimik kaslarına aittir. Clostridium Botulinum da bu kasların neden olduğu kırışıklıkların azaltılmasında ve engellemesinde kullanılan etkili bir estetik yöntemdir.</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar2'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Kırışıklık Tedavisi" %}</h2>
+                <p class="lead">{% trans "'Kendi Yaşınızın En Genci Olun.'<br> Hepimiz aynaya baktığımızda kendimizi genç ve güzel hissetmek isteriz. Zamanla yüzümüzde ortaya çıkan kırışıklıklar kendimizi yaşlı olarak hissetmemizde büyük rol oynamaktadır. Bu kırışıklıkların oluşmasındaki en önemli pay günlük hayatımızda sıkça kullandığımız mimik kaslarına aittir. Clostridium Botulinum da bu kasların neden olduğu kırışıklıkların azaltılmasında ve engellemesinde kullanılan etkili bir estetik yöntemdir." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar2'%}" class="font-weight-bold text-light">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/kirisiklik_tedavisi.jpg" alt="kirisiklik_tedavisi">
@@ -26,9 +26,9 @@
         <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">El ve Koltuk Altı Terleme Tedavisi</h2>
-                <p class="lead">Terleme Tedavisi; Koltuk altı ve el aşırı terlemesinde botoks uygulaması ile oldukça başarılı sonuçlar elde edilmektedir. Zamanında yapılan tekrarlar tedavinin etkinliğini arttırır. Terlemenin azalması kişinin sosyal ve psikolojik yaşantısına olumlu yansır.</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar3'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "El ve Koltuk Altı Terleme Tedavisi" %}</h2>
+                <p class="lead">{% trans "Terleme Tedavisi; Koltuk altı ve el aşırı terlemesinde botoks uygulaması ile oldukça başarılı sonuçlar elde edilmektedir. Zamanında yapılan tekrarlar tedavinin etkinliğini arttırır. Terlemenin azalması kişinin sosyal ve psikolojik yaşantısına olumlu yansır." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar3'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/asiri_terleme.jpg" alt="asiri_terleme">
@@ -37,9 +37,9 @@
         <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Somon DNA Aşısı</h2>
-                <p class="lead">"Kendi Yaşınızın En Genci Olun."</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar4'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Somon DNA Aşısı" %}</h2>
+                <p class="lead">{% trans "Kendi Yaşınızın En Genci Olun." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar4'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/somon_asisi.jpg" alt="somon_asisi">
@@ -48,12 +48,9 @@
         <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Aqualpeel</h2>
-                <p class="lead">
-                    Aquapeel içerisinde bulunan 3 adet değişik özellikdeki bileşimyonlarla 3 değişik aşamada medikal bir cilt bakımı yapar.
-                    İlk ve ikinci aşamada vorteks vakumlama özelliği ile yüzeysel bir soyma yaparak gözeneklerin açılmasını yardımcı olur.
-                    Üçüncü aşamada içeriğini yatıştırıcı ve nemlendirici. Toplamda 3 ile 5 seans arasında yapılır.</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar5'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Aqualpeel" %}</h2>
+                <p class="lead">{% trans "Aquapeel içerisinde bulunan 3 adet değişik özellikdeki bileşimyonlarla 3 değişik aşamada medikal bir cilt bakımı yapar.                    İlk ve ikinci aşamada vorteks vakumlama özelliği ile yüzeysel bir soyma yaparak gözeneklerin açılmasını yardımcı olur.                    Üçüncü aşamada içeriğini yatıştırıcı ve nemlendirici. Toplamda 3 ile 5 seans arasında yapılır." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar5'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/aqualpeel.jpg" alt="aqualpeel">
@@ -62,17 +59,9 @@
         <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Lazer Uygulamaları</h2>
-                <p class="lead">Lazer teknolojisi kullanılarak
-                    Dövme Silme,
-                    Karbon Peeling,
-                    Lazer Epilasyon,
-                    Leke Tedavisi,
-                    Sivilce İzi Tedavisi ve
-                    Cilt Gençleştirme
-                    başarıyla gerçekleştirilmektedir.
-                </p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar9'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Lazer Uygulamaları" %}</h2>
+                <p class="lead">{% trans "Lazer teknolojisi kullanılarak Dövme Silme,                    Karbon Peeling,                    Lazer Epilasyon,                    Leke Tedavisi,                    Sivilce İzi Tedavisi ve                    Cilt Gençleştirme                    başarıyla gerçekleştirilmektedir.                " %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar9'%}" class="font-weight-bold text-light">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/lazer_uygulamalari.jpg" alt="lazer_uygulamalari">
@@ -81,9 +70,9 @@
         <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Cosmelan-Dermamelan Leke Tedavisi</h2>
-                <p class="lead">"Kendi Yaşınızın En Genci Olun."</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar10'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Cosmelan-Dermamelan Leke Tedavisi" %}</h2>
+                <p class="lead">{% trans "Kendi Yaşınızın En Genci Olun." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar10'%}" class="font-weight-bold text-light">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/cosmelan.jpg" alt="cosmelan">
@@ -92,9 +81,9 @@
         <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Peeling</h2>
-                <p class="lead">"Kendi Yaşınızın En Genci Olun."</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar11'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Peeling" %}</h2>
+                <p class="lead">{% trans "Kendi Yaşınızın En Genci Olun." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar11'%}" class="font-weight-bold text-light">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/peeling.jpg" alt="peeling">
@@ -103,14 +92,9 @@
         <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Diş Sıkma Tedavisi</h2>
-                <p class="lead">
-                    Diş sıkma problemi olan çok sayıda kişi var.
-                    Bu sorun dişlerde ve çene ekleminde bir takım sorunlara neden olabildiği gibi yüzde istenmeyen
-                    kare görüntüsüne yol açarak yüz ovalini bozabiliyor.
-                    Bu sorunu çok kısa süren bir uygulama ile gidermek ve oval bir yüz hattı oluşturmak mümkün.
-                </p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar12'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Diş Sıkma Tedavisi" %}</h2>
+                <p class="lead">{% trans "                    Diş sıkma problemi olan çok sayıda kişi var.                    Bu sorun dişlerde ve çene ekleminde bir takım sorunlara neden olabildiği gibi yüzde istenmeyen                    kare görüntüsüne yol açarak yüz ovalini bozabiliyor.                    Bu sorunu çok kısa süren bir uygulama ile gidermek ve oval bir yüz hattı oluşturmak mümkün.                " %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar12'%}" class="font-weight-bold text-light">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/dis_sikma.jpg" alt="dis_sikma">
@@ -119,9 +103,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Cilt Bakımı</h2>
-                <p class="lead">"Kendi Yaşınızın En Genci Olun."</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar19'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Cilt Bakımı" %}</h2>
+                <p class="lead">{% trans "Kendi Yaşınızın En Genci Olun." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar19'%}" class="font-weight-bold text-light">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/cilt_bakimi.jpg" alt="cilt_bakimi">
@@ -130,9 +114,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">İp Uygulaması</h2>
-                <p class="lead">"Kendi Yaşınızın En Genci Olun."</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar13'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "İp Uygulaması" %}</h2>
+                <p class="lead">{% trans "Kendi Yaşınızın En Genci Olun." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar13'%}" class="font-weight-bold text-light">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/ip_uygulamasi.jpg" alt="ip_uygulamasi">
@@ -141,14 +125,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Fraksiyonel Radyofrekans (Altın iğne)</h2>
-                <p class="lead">
-                    "Altın İğne ile Cildiniz Yenilensin"<br><br>
-                    Altın İğne Nedir?<br><br>
-                    Radyofrekans (ısı) enerjisinin Secret Altın İğne Cihazı ile deri ve deri altına verilmesi ve
-                    bu enerjiyle kontrollü bir hasar oluşturulması prensibine dayanan yeni bir teknolojik yöntemdir.
-                </p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar16'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Fraksiyonel Radyofrekans (Altın iğne)" %}</h2>
+                <p class="lead">{% trans "Altın İğne ile Cildiniz Yenilensin<br><br>       Altın İğne Nedir?<br><br>                    Radyofrekans (ısı) enerjisinin Secret Altın İğne Cihazı ile deri ve deri altına verilmesi ve                    bu enerjiyle kontrollü bir hasar oluşturulması prensibine dayanan yeni bir teknolojik yöntemdir." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar16'%}" class="font-weight-bold text-light">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/fraksiyonel.jpg" alt="fraksiyonel">
@@ -157,12 +136,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Mezoterapi</h2>
-                <p class="lead">
-                    Kadınlarda saç dökülmesi çok sık karşılaştığımız dermatolojik sorunlardan bir tanesi.
-                    Zamanında yapılan analizler ve uygun tedavilerle bu durum düzeltilebilmektedir.
-                </p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar20'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Mezoterapi" %}</h2>
+                <p class="lead">{% trans "                    Kadınlarda saç dökülmesi çok sık karşılaştığımız dermatolojik sorunlardan bir tanesi.                    Zamanında yapılan analizler ve uygun tedavilerle bu durum düzeltilebilmektedir." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar20'%}" class="font-weight-bold text-light">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/mezoterapi.jpg" alt="mezoterapi">
@@ -171,13 +147,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Dolgu Uygulamaları</h2>
-                <p class="lead">
-                    Farklı teknolojiler kullanarak;
-                    Gençlik (Nem) Aşısı, Göz Altı Dolgusu, Alın Dolgusu, Burun Dolgusu, Nazolabial Dolgusu, Dudak Dolgusu,
-                    Elmacık Dolgusu, Akıllı Dolgu, Çene Dolgusu başarı ile yapılmaktadır.
-                </p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar14'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Dolgu Uygulamaları" %}</h2>
+                <p class="lead">{% trans "   Farklı teknolojiler kullanarak;                    Gençlik (Nem) Aşısı, Göz Altı Dolgusu, Alın Dolgusu, Burun Dolgusu, Nazolabial Dolgusu, Dudak Dolgusu,                    Elmacık Dolgusu, Akıllı Dolgu, Çene Dolgusu başarı ile yapılmaktadır." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar14'%}" class="font-weight-bold text-light">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/dolgu_uygulamalari.jpg" alt="dolgu_uygulamalari">
@@ -186,9 +158,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Roller ve Dermapen</h2>
-                <p class="lead">"Kendi Yaşınızın En Genci Olun."</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar17'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Roller ve Dermapen" %}</h2>
+                <p class="lead">{% trans "Kendi Yaşınızın En Genci Olun." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar17'%}" class="font-weight-bold text-light">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/roller_dermapen.jpg" alt="roller_dermapen">
@@ -197,9 +169,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Leke Tedavisi</h2>
-                <p class="lead">"Kendi Yaşınızın En Genci Olun."</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar21'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Leke Tedavisi" %}</h2>
+                <p class="lead">{% trans "Kendi Yaşınızın En Genci Olun." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar21'%}" class="font-weight-bold text-light">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/leke_tedavisi.jpg" alt="leke_tedavisi">
@@ -208,9 +180,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Saç Mezoterapisi</h2>
-                <p class="lead">"Kendi Yaşınızın En Genci Olun."</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar15'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Saç Mezoterapisi" %}</h2>
+                <p class="lead">{% trans "Kendi Yaşınızın En Genci Olun." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar15'%}" class="font-weight-bold text-light">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/sac_mezoterapisi.jpg" alt="sac_mezoterapisi">
@@ -219,9 +191,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">PRP (Platelet Rich Plasma)</h2>
-                <p class="lead">Kişinin kendisinden alınan kanın, santrifüj denilen bir işlemden sonra geçirildikten sonra, içerisindeki trombosit hücrelerin ayrıştırıldığı bir sırada enjekte ederek, şeklinde açıklanabilir.</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar18'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "PRP (Platelet Rich Plasma)" %}</h2>
+                <p class="lead">{% trans "Kişinin kendisinden alınan kanın, santrifüj denilen bir işlemden sonra geçirildikten sonra, içerisindeki trombosit hücrelerin ayrıştırıldığı bir sırada enjekte ederek, şeklinde açıklanabilir." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar18'%}" class="font-weight-bold text-light">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/prp.jpg" alt="prp">
@@ -231,22 +203,13 @@
 </div>
 <div class="jumbotron p-3 p-md-5 text-white rounded bg-info">
     <div class="col-md-12 px-0">
-        <h1 class="display-4 font-italic">Genel Dermatoloji (Cilt Hastalıkları)</h1>
+        <h1 class="display-4 font-italic">{% trans "Genel Dermatoloji (Cilt Hastalıkları)" %}</h1>
         <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Akne (Sivilce)</h2>
-                <p class="lead">
-                    Akne, yüz, omuzlar, sırt ve göğüsteki yağ bezleriyle ilgili bir deri hastalığı.
-                    En çok 14-20 yaşlar arasında görülür ve bu hastalığın tipik belirtileri olan siyah noktalar,
-                    sivilceler, gençlerin bu en hassas devirlerinde genellikle psikolojik rahatsızlıklara yol açar.
-                    Yağ bezlerinin kanalında bir tıkaç oluşur ve bu tıkacın başı sertleşip siyahlaşır.
-                    Bazen, kanal tıkalı olduğu halde, bez, yağ salgılamaya devam eder ve böylece içi yağ dolu bir kist oluşur.
-                    Siyah noktalara tıpta komedon adı verilir.
-                    Genetik yatkınlık,stres,yağlı kozmetik ürünler,hiperandrojenizm risk faktörleri arasında sayılır.<br><br>
-                    Komedon oluştuktan sonra, normalde de cildimizde bulunan propionibacterium acnes adlı bakteri buraya yerleşir
-                    ve akne oluşumuna katkıda bulunur.</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar6'%}" class="font-weight-bold text-light">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Akne (Sivilce)" %}</h2>
+                <p class="lead">{% trans "Akne, yüz, omuzlar, sırt ve göğüsteki yağ bezleriyle ilgili bir deri hastalığı.                    En çok 14-20 yaşlar arasında görülür ve bu hastalığın tipik belirtileri olan siyah noktalar,                    sivilceler, gençlerin bu en hassas devirlerinde genellikle psikolojik rahatsızlıklara yol açar.                    Yağ bezlerinin kanalında bir tıkaç oluşur ve bu tıkacın başı sertleşip siyahlaşır.                    Bazen, kanal tıkalı olduğu halde, bez, yağ salgılamaya devam eder ve böylece içi yağ dolu bir kist oluşur.                    Siyah noktalara tıpta komedon adı verilir.                    Genetik yatkınlık,stres,yağlı kozmetik ürünler,hiperandrojenizm risk faktörleri arasında sayılır.<br><br>                    Komedon oluştuktan sonra, normalde de cildimizde bulunan propionibacterium acnes adlı bakteri buraya yerleşir                    ve akne oluşumuna katkıda bulunur." %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar6'%}" class="font-weight-bold text-light">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/akne_sivilce.jpg" alt="akne_sivilce">
@@ -255,9 +218,9 @@
         <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Genital Siğil</h2>
-                <p class="lead">"Genital bölge siğilleri cinsel yaşamınızı etkilemesin!"</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar7'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Genital Siğil" %}</h2>
+                <p class="lead">{% trans "Genital bölge siğilleri cinsel yaşamınızı etkilemesin!" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar7'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/genital_sigil.jpg" alt="genital_sigil">
@@ -266,9 +229,9 @@
         <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Mantar Hastalıkları</h2>
-                <p class="lead">Mantar Hastalıkları</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar8'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Mantar Hastalıkları" %}</h2>
+                <p class="lead">{% trans "Mantar Hastalıkları" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar8'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/mantar_hastaliklari.jpg" alt="mantar_hastaliklari">
@@ -277,9 +240,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Behçet Hastalığı</h2>
-                <p class="lead">Behçet Hastalığı</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar22'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Behçet Hastalığı" %}</h2>
+                <p class="lead">{% trans "Behçet Hastalığı" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar22'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/behcet_hastaligi.jpg" alt="behcet_hastaligi">
@@ -288,9 +251,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Güneşten Korunma</h2>
-                <p class="lead">Güneşten Korunma</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar29'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Güneşten Korunma" %}</h2>
+                <p class="lead">{% trans "Güneşten Korunma" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar29'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/gunesten_korunma.jpg" alt="gunesten_korunma">
@@ -299,9 +262,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Pitriazis Rosea</h2>
-                <p class="lead">Pitriazis Rosea</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar36'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Pitriazis Rosea" %}</h2>
+                <p class="lead">{% trans "Pitriazis Rosea" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar36'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/pitriazis.jpg" alt="pitriazis">
@@ -310,9 +273,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Cinsel Yolla Bulaşan Hastalıklar</h2>
-                <p class="lead">Cinsel Yolla Bulaşan Hastalıklar</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar23'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Cinsel Yolla Bulaşan Hastalıklar" %}</h2>
+                <p class="lead">{% trans "Cinsel Yolla Bulaşan Hastalıklar" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar23'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/cinsel_yolla_bulasan_hastaliklar.jpg" alt="cinsel_yolla_bulasan_hastaliklar">
@@ -321,9 +284,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Herpes Simpleks Enfeksiyonu (Uçuk)</h2>
-                <p class="lead">Herpes Simpleks Enfeksiyonu (Uçuk)</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar30'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Herpes Simpleks Enfeksiyonu (Uçuk)" %}</h2>
+                <p class="lead">{% trans "Herpes Simpleks Enfeksiyonu (Uçuk)" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar30'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/herpes.jpg" alt="herpes">
@@ -332,9 +295,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Psoriazis (Sedef Hastalığı)</h2>
-                <p class="lead">Psoriazis (Sedef Hastalığı)</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar37'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Psoriazis (Sedef Hastalığı)" %}</h2>
+                <p class="lead">{% trans "Psoriazis (Sedef Hastalığı)" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar37'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/sedef.jpg" alt="sedef">
@@ -343,9 +306,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Cilt Benleri</h2>
-                <p class="lead">Cilt Benleri</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar24'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Cilt Benleri" %}</h2>
+                <p class="lead">{% trans "Cilt Benleri" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar24'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/cilt_benleri.jpg" alt="cilt_benleri">
@@ -354,9 +317,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Hiperhidrozis (Aşırı terleme)</h2>
-                <p class="lead">Aşırı terleme</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar31'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Hiperhidrozis (Aşırı terleme)" %}</h2>
+                <p class="lead">{% trans "Aşırı terleme" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar31'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/hiperhidrozis.jpg" alt="hiperhidrozis">
@@ -365,9 +328,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Roza Hastalığı (Gül hastalığı, Gülleme)</h2>
-                <p class="lead">Gül hastalığı, Gülleme</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar38'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Roza Hastalığı (Gül hastalığı, Gülleme)" %}</h2>
+                <p class="lead">{% trans "Gül hastalığı, Gülleme" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar38'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/roza_hastaligi.jpg" alt="roza_hastaligi">
@@ -376,9 +339,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Cilt Kanserleri</h2>
-                <p class="lead">Cilt Kanserleri</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar25'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Cilt Kanserleri" %}</h2>
+                <p class="lead">{% trans "Cilt Kanserleri" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar25'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/cilt_kanserleri.jpg" alt="cilt_kanserleri">
@@ -387,9 +350,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Hipertrofik Skar/ Keloid</h2>
-                <p class="lead">Hipertrofik Skar/ Keloid</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar32'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Hipertrofik Skar/ Keloid" %}</h2>
+                <p class="lead">{% trans "Hipertrofik Skar/ Keloid" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar32'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/skar.jpg" alt="skar">
@@ -398,9 +361,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Saç Hastalıkları</h2>
-                <p class="lead">Androgenetik Alopesi, Alopesi Areata</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar39'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Saç Hastalıkları" %}</h2>
+                <p class="lead">{% trans "Androgenetik Alopesi, Alopesi Areata" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar39'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/sac_hastaliklari.jpg" alt="sac_hastaliklari">
@@ -409,9 +372,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Ekzema</h2>
-                <p class="lead">Ekzema</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar26'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Ekzema" %}</h2>
+                <p class="lead">{% trans "Ekzema" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar26'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/ekzema.jpg" alt="ekzema">
@@ -420,9 +383,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Liken Planus</h2>
-                <p class="lead">Liken Planus</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar33'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Liken Planus" %}</h2>
+                <p class="lead">{% trans "Liken Planus" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar33'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/liken_planus.jpg" alt="liken_planus">
@@ -431,9 +394,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Saç Dökülmesi</h2>
-                <p class="lead">Saç Dökülmesi</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar40'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Saç Dökülmesi" %}</h2>
+                <p class="lead">{% trans "Saç Dökülmesi" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar40'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/sac_dokulmesi.jpg" alt="sac_dokulmesi">
@@ -442,9 +405,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Siğil (Verrü)</h2>
-                <p class="lead">Siğil</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar27'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Siğil (Verrü)" %}</h2>
+                <p class="lead">{% trans "Siğil" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar27'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/sigil_verru.jpg" alt="sigil_verru">
@@ -453,9 +416,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Tırnak Hastalıkları</h2>
-                <p class="lead">Tırnak Hastalıkları</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar34'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Tırnak Hastalıkları" %}</h2>
+                <p class="lead">{% trans "Tırnak Hastalıkları" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar34'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/tirnak_hastaliklari.jpg" alt="tirnak_hastaliklari">
@@ -464,9 +427,9 @@
         <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Zona Zoster (gece yanığı)</h2>
-                <p class="lead">Zona Zoster (gece yanığı)</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar41'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Zona Zoster (gece yanığı)" %}</h2>
+                <p class="lead">{% trans "Zona Zoster (gece yanığı)" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar41'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/zona_zoster.jpg" alt="zona_zoster">
@@ -475,9 +438,9 @@
         <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Ürtiker (Kurdeşen)</h2>
-                <p class="lead">Ürtiker (Kurdeşen)</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar28'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Ürtiker (Kurdeşen)" %}</h2>
+                <p class="lead">{% trans "Ürtiker (Kurdeşen)" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar28'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/urtiker.jpg" alt="urtikeri">
@@ -486,9 +449,9 @@
                 <hr class="featurette-divider my-5 bg-white">
         <div class="row featurette my-5 ">
             <div class="col-md-6 order-md-2 mx-auto text-justify">
-                <h2 class="featurette-heading">Vitiligo</h2>
-                <p class="lead">Vitiligo</p>
-                <p class="lead"><a href="{% url 'mainapp:uygulamalar35'%}" class="font-weight-bold text-white">Ayrıntılar için Tıklayınız...</a></p>
+                <h2 class="featurette-heading">{% trans "Vitiligo" %}</h2>
+                <p class="lead">{% trans "Vitiligo" %}</p>
+                <p class="lead"><a href="{% url 'mainapp:uygulamalar35'%}" class="font-weight-bold text-white">{% trans "Ayrıntılar için Tıklayınız..." %}</a></p>
             </div>
             <div class="col-md-4 order-md-1">
                 <img class="featurette-image img-fluid mx-auto w-100" src="/static/vitiligo.jpg" alt="vitiligo">

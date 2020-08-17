@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-16 22:59+0300\n"
+"POT-Creation-Date: 2020-08-17 21:12+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,6 +21,7 @@ msgstr ""
 #: .\mainapp\templates\mainapp\anasayfa.html:16
 #: .\mainapp\templates\mainapp\anasayfa.html:26
 #: .\mainapp\templates\mainapp\anasayfa.html:51
+#: .\mainapp\templates\mainapp\uygulamalar.html:14
 msgid "Estetik ve Kozmetik Dermatoloji"
 msgstr "Aesthetic and Cosmetic Dermatology"
 
@@ -47,173 +48,234 @@ msgid ""
 "Yaygın durumdan komplekse kadar tüm cilt durumlarını teşhis ediyor ve tedavi "
 "ediyoruz. Uygulamalarımız iki bölüme ayrılıyor. Estetik ve Kozmetik "
 "Dermatoloji ile Genel Dermatoloji (Cilt Hastalıkları)."
-msgstr "We diagnose and treat all skin conditions, from the common to the complex. Here are some of the common conditions we see:"
+msgstr ""
+"We diagnose and treat all skin conditions, from the common to the complex. "
+"Here are some of the common conditions we see:"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:56
+#: .\mainapp\templates\mainapp\uygulamalar.html:18
 msgid "Kırışıklık Tedavisi"
 msgstr "Skin Aging"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:57
+#: .\mainapp\templates\mainapp\uygulamalar.html:62
 msgid "Lazer Uygulamaları"
 msgstr "Laser Applications"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:58
+#: .\mainapp\templates\mainapp\uygulamalar.html:95
 msgid "Diş Sıkma Tedavisi"
 msgstr "Masseter Botox for Bruxism"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:59
+#: .\mainapp\templates\mainapp\uygulamalar.html:117
 msgid "İp Uygulaması"
 msgstr "Thread Applications"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:60
+#: .\mainapp\templates\mainapp\uygulamalar.html:150
 msgid "Dolgu Uygulamaları"
 msgstr "Botulinum Applications (Botox)"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:61
+#: .\mainapp\templates\mainapp\uygulamalar.html:183
 msgid "Saç Mezoterapisi"
 msgstr "Hair Mesotherapy"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:66
+#: .\mainapp\templates\mainapp\uygulamalar.html:40
 msgid "Somon DNA Aşısı"
 msgstr "Youth Vaccine With Salmon DNA"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:67
+#: .\mainapp\templates\mainapp\uygulamalar.html:73
 msgid "Cosmelan-Dermamelan Leke Tedavisi"
 msgstr "Skin Spots And Cosmelan Dermamelan Treatment Method"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:68
+#: .\mainapp\templates\mainapp\uygulamalar.html:29
 msgid "El ve Koltuk Altı Terleme Tedavisi"
-msgstr ""
+msgstr "Palmoplantar and Axillary Hyperhidrosis"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:69
+#: .\mainapp\templates\mainapp\uygulamalar.html:128
 msgid "Fraksiyonel Radyofrekans (Altın iğne)"
 msgstr "Golden Needle-Fractional Radiofrequency"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:70
+#: .\mainapp\templates\mainapp\uygulamalar.html:161
 msgid "Roller ve Dermapen"
 msgstr "Dermapen–Dermaroller (Microneedling) Applications"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:71
+#: .\mainapp\templates\mainapp\uygulamalar.html:194
 msgid "PRP (Platelet Rich Plasma)"
 msgstr "PRP (Platelet Rich Plasma)"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:76
+#: .\mainapp\templates\mainapp\uygulamalar.html:51
 msgid "Aqualpeel"
 msgstr "Aqualpeel"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:77
+#: .\mainapp\templates\mainapp\uygulamalar.html:84
 msgid "Peeling"
 msgstr "Peeling"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:78
+#: .\mainapp\templates\mainapp\uygulamalar.html:106
 msgid "Cilt Bakımı"
 msgstr "Skincare"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:79
+#: .\mainapp\templates\mainapp\uygulamalar.html:139
 msgid "Mezoterapi"
 msgstr "Mesotherapy"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:80
+#: .\mainapp\templates\mainapp\uygulamalar.html:172
 msgid "Leke Tedavisi"
 msgstr "Skin Spots And Treatment Methods"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:87
+#: .\mainapp\templates\mainapp\uygulamalar.html:206
 msgid "Genel Dermatoloji (Cilt Hastalıkları)"
 msgstr "Skin Diseases"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:92
+#: .\mainapp\templates\mainapp\uygulamalar.html:210
 msgid "Akne (Sivilce)"
 msgstr "Acne and Acne Scar Treatment"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:93
+#: .\mainapp\templates\mainapp\uygulamalar.html:243
+#: .\mainapp\templates\mainapp\uygulamalar.html:244
 msgid "Behçet Hastalığı"
-msgstr ""
+msgstr "Morbus Behcet"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:94
+#: .\mainapp\templates\mainapp\uygulamalar.html:276
+#: .\mainapp\templates\mainapp\uygulamalar.html:277
 msgid "Cinsel Yolla Bulaşan Hastalıklar"
-msgstr ""
+msgstr "Sexually Transmitted Diseases"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:95
+#: .\mainapp\templates\mainapp\uygulamalar.html:309
+#: .\mainapp\templates\mainapp\uygulamalar.html:310
 msgid "Cilt Benleri"
 msgstr "Nevus"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:96
+#: .\mainapp\templates\mainapp\uygulamalar.html:342
+#: .\mainapp\templates\mainapp\uygulamalar.html:343
 msgid "Cilt Kanserleri"
 msgstr "Skin Cancer"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:97
+#: .\mainapp\templates\mainapp\uygulamalar.html:375
+#: .\mainapp\templates\mainapp\uygulamalar.html:376
 msgid "Ekzema"
-msgstr ""
+msgstr "Eczema"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:98
+#: .\mainapp\templates\mainapp\uygulamalar.html:408
 msgid "Siğil (Verrü)"
 msgstr "Verruca"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:99
+#: .\mainapp\templates\mainapp\uygulamalar.html:441
+#: .\mainapp\templates\mainapp\uygulamalar.html:442
 msgid "Ürtiker (Kurdeşen)"
 msgstr "Urticaria (Hives)"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:104
+#: .\mainapp\templates\mainapp\uygulamalar.html:221
 msgid "Genital Siğil"
 msgstr "Genital Verruca "
 
 #: .\mainapp\templates\mainapp\anasayfa.html:105
+#: .\mainapp\templates\mainapp\uygulamalar.html:254
+#: .\mainapp\templates\mainapp\uygulamalar.html:255
 msgid "Güneşten Korunma"
 msgstr "Sun Protection"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:106
+#: .\mainapp\templates\mainapp\uygulamalar.html:287
+#: .\mainapp\templates\mainapp\uygulamalar.html:288
 msgid "Herpes Simpleks Enfeksiyonu (Uçuk)"
 msgstr "Herpes"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:107
+#: .\mainapp\templates\mainapp\uygulamalar.html:320
 msgid "Hiperhidrozis (Aşırı terleme)"
 msgstr "Hyperhidrosis"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:108
+#: .\mainapp\templates\mainapp\uygulamalar.html:353
+#: .\mainapp\templates\mainapp\uygulamalar.html:354
 msgid "Hipertrofik Skar/ Keloid"
 msgstr "Hipertrofik Skar Keloid"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:109
+#: .\mainapp\templates\mainapp\uygulamalar.html:386
+#: .\mainapp\templates\mainapp\uygulamalar.html:387
 msgid "Liken Planus"
 msgstr "Lichen Planus"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:110
+#: .\mainapp\templates\mainapp\uygulamalar.html:419
+#: .\mainapp\templates\mainapp\uygulamalar.html:420
 msgid "Tırnak Hastalıkları"
 msgstr "Nail Diseases"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:111
+#: .\mainapp\templates\mainapp\uygulamalar.html:452
+#: .\mainapp\templates\mainapp\uygulamalar.html:453
 msgid "Vitiligo"
 msgstr "Vitiligo"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:116
+#: .\mainapp\templates\mainapp\uygulamalar.html:232
+#: .\mainapp\templates\mainapp\uygulamalar.html:233
 msgid "Mantar Hastalıkları"
 msgstr "Fungal Diseases"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:117
+#: .\mainapp\templates\mainapp\uygulamalar.html:265
+#: .\mainapp\templates\mainapp\uygulamalar.html:266
 msgid "Pitriazis Rosea"
 msgstr "Pityriasis Rosea"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:118
+#: .\mainapp\templates\mainapp\uygulamalar.html:298
+#: .\mainapp\templates\mainapp\uygulamalar.html:299
 msgid "Psoriazis (Sedef Hastalığı)"
 msgstr "Psoriasis"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:119
+#: .\mainapp\templates\mainapp\uygulamalar.html:331
 msgid "Roza Hastalığı (Gül hastalığı, Gülleme)"
 msgstr "Rosacea"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:120
+#: .\mainapp\templates\mainapp\uygulamalar.html:364
 msgid "Saç Hastalıkları"
 msgstr "Hair Disorders"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:121
+#: .\mainapp\templates\mainapp\uygulamalar.html:397
+#: .\mainapp\templates\mainapp\uygulamalar.html:398
 msgid "Saç Dökülmesi"
 msgstr "Hair Loss"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:122
+#: .\mainapp\templates\mainapp\uygulamalar.html:430
+#: .\mainapp\templates\mainapp\uygulamalar.html:431
 msgid "Zona Zoster (gece yanığı)"
 msgstr "Zona"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:129
+#: .\mainapp\templates\mainapp\basinda.html:8
 msgid "Basında Dr. Ersin AYDIN"
 msgstr "Press (Ersin AYDIN, MD)"
 
@@ -233,6 +295,7 @@ msgid "DANIŞAN GÖRÜŞLERİ"
 msgstr "PATIENT TESTIMONIAL"
 
 #: .\mainapp\templates\mainapp\anasayfa.html:190
+#: .\mainapp\templates\mainapp\danisan_yorum.html:13
 msgid ""
 "<br>Merhaba ben xxx,<br> Diş sıkma problemim vardı ve beni çok rahatsız "
 "ediyordu. Ersin beyi tavsiye ettiler. Kısa sürede ağrısız bir uygulama "
@@ -244,9 +307,163 @@ msgstr ""
 msgid "Diğer Yorumlar için Tıklayınız..."
 msgstr "Click for Other Comments"
 
+#: .\mainapp\templates\mainapp\basinda.html:14
+msgid "Altın İğne Uygulaması (TV8)"
+msgstr "Golden Needle Application (TV8)"
+
+#: .\mainapp\templates\mainapp\basinda.html:18
+msgid "Fraksiyonel Lazer ve Altın İğne Uygulaması"
+msgstr "Fractional Laser and Golden Needle Application"
+
+#: .\mainapp\templates\mainapp\basinda.html:19
+msgid ""
+"Tv8 Ekranlarında yayınlanan Çook Yaşa Programında Fraksiyonel Lazer ve "
+"Secret Altın İğne uygulamaları hakkında merak edilenleri konuştuk."
+msgstr ""
+
+#: .\mainapp\templates\mainapp\basinda.html:30
+msgid "Natürel Botoks (TV8)"
+msgstr "Natural Botox (TV8)"
+
+#: .\mainapp\templates\mainapp\basinda.html:34
+#: .\mainapp\templates\mainapp\basinda.html:66
+msgid "Natürel Botoks"
+msgstr "Natural Botox"
+
+#: .\mainapp\templates\mainapp\basinda.html:35
+msgid ""
+"Natürel Botoks, Hyalüronik Asit uygulamaları ve Cilt Gençleştirme yöntemleri "
+"hakkında merak edilenleri TV 8 ekranlarında yanıtladık."
+msgstr ""
+
+#: .\mainapp\templates\mainapp\basinda.html:46
+msgid "Masseter Botoks (TV8)"
+msgstr "Masseter Botox (TV8)"
+
+#: .\mainapp\templates\mainapp\basinda.html:50
+msgid "Masseter Botoks"
+msgstr "Masseter Botox"
+
+#: .\mainapp\templates\mainapp\basinda.html:51
+msgid ""
+"Masseter Botoksunu, hem diş sıkma problemini tedavi etmek hem yüzde daha "
+"estetik, V şeklinde bir görüntü elde etmek için uyguluyoruz.              "
+"Günümüzde çeşitli nedenlere diş sıkma sorunu yaşayan oldukça çok sayıda kişi "
+"var ve kişiler bu sorunun farkında olmayabiliyor.                    Diş "
+"hekimlerine gittiklerinde diş hekimleri bu tanıyı koyuyorlar ve gece plağı "
+"ya da masseter botoks yapılmasını önerebiliyorlar.                    "
+"Masseter kasına uyguladığımız botoks sonrasında hastalarımız şikayetlerinin "
+"çok kısa süre içerisinde azaldığını ifade ediyorlar.                    "
+"Ayrıca yüzde kasın büyümesi nedeniyle oluşmuş kare görüntüsü de hafifliyor, "
+"yüzde daha estetik oval bir görüntü ortaya çıkabiliyor. Bu görüntü de "
+"hastalarımızı, danışanlarımızı oldukça mutlu ediyor."
+msgstr ""
+
+#: .\mainapp\templates\mainapp\basinda.html:62
+msgid "Natürel Botoks (CNN Türk)"
+msgstr "Natural Botox (CNN TURK)"
+
+#: .\mainapp\templates\mainapp\basinda.html:67
+msgid ""
+"Naturel Botoks hakkında merak edilenleri CNN TURK ekranlarında anlattım."
+msgstr ""
+
+#: .\mainapp\templates\mainapp\danisan_yorum.html:24
+msgid ""
+"<br>Merhaba ben xxx,<br> Acısız ve etkili bir uygulama için Ersin hocamı "
+"tercih ettim. Kısa sürede güzel sonuçlar aldık. Çok memnun kaldım."
+"<br>Herkese tavsiye ediyorum."
+msgstr ""
+
+#: .\mainapp\templates\mainapp\egitim.html:8
+msgid "Dermatoloji Uzmanı <br>Dr. Ersin AYDIN'ın Eğitim Videoları"
+msgstr "Seminars by Ersin AYDIN, MD (Dermatologist)"
+
+#: .\mainapp\templates\mainapp\egitim.html:14
+#: .\mainapp\templates\mainapp\egitim.html:18
+msgid "Fraxis Duo Nedir? Neler Yapılabilir?"
+msgstr "What is Fraxis Duo?"
+
+#: .\mainapp\templates\mainapp\egitim.html:19
+msgid ""
+"'Fraxis Duo Master Training' eğitiminde 'Fraxis Duo Nedir? Neler "
+"Yapılabilir?' konulu sunumumuzda, fraksiyonel lazer uygulamaları ile ilgili "
+"deneyim ve bilgilerimizi meslektaşlarımız ile paylaştık."
+msgstr ""
+
 #: .\mainapp\templates\mainapp\hakkimda.html:8
 msgid "Dermatoloji Uzmanı Dr. Ersin AYDIN"
 msgstr "Ersin AYDIN, MD (Dermatologist)"
+
+#: .\mainapp\templates\mainapp\hakkimda.html:15
+#: .\mainapp\templates\mainapp\temel.html:44
+msgid "Hakkımda"
+msgstr "About Me"
+
+#: .\mainapp\templates\mainapp\hakkimda.html:16
+msgid ""
+"2008 yılında Gülhane Askeri Tıp Fakültesinde başladığım ihtisası 2012 "
+"yılında tamamlayarak Dermatoloji uzmanı oldum.                Dermal Dolgu, "
+"Botilinum Toksin Uygulamaları, Fraksiyonel Lazer Tedavisi, Dermatoskopi, "
+"Saten Yüz Germe, FocusluRadyofrekans ile Yüz ve Vücut Gençleştirme, Thulium "
+"Lazer ile Melazma Tedavisi, 4 Boyutlu Antiaging Programı, Biolifting (Dolgu "
+"+ Mezoterapi), Gözaltıışık Dolgusu, Peeling (Scar-Lifting), Nazolabial Dolgu,"
+"Pediatrik Dermatoloji, Temel Eksizyonel Cerrahi Teknikleri, Dermatoallerji, "
+"Plazma Enerjisi, PDO, PLA iplerle yüz germe, Dermatokozmetoloji, Her Yönüyle "
+"Saç, Her Yönüyle Tırnak eğitimlerini tamamlayarak sertifika sahibi "
+"oldum.                <br><br>                Ulusal ve uluslararası "
+"kongrelerde estetik ve kozmetik uygulamalarla ilgili eğitmenlik ve "
+"moderatörlük yaptım.                <br><br>                Ulusal ve "
+"uluslararası dergilerde yayınlanmış 30’un üzerinde makale, ulusal ve "
+"uluslararası bilimsel toplantılarda sunulmuş 40’ın üzerinde poster bildirim "
+"bulunmakta.  Aynı zamanda çok sayıda ulusal ve uluslararası dergilerde yayın "
+"hakemliği yaptım.                <br><br>                Estetik ve Kozmetik "
+"Dermatoloji Derneği, Türk Dermatoloji Derneği, Deri ve Zührevi Hastalıklar "
+"Derneği, Deri ve Zührevi Hastalıklar Derneği, Kozmetoloji ve Dermatoloji "
+"Akademisi Derneği, Ankara Deri ve Zührevi Hastalıklar Derneği, Türk "
+"Pediatrik Dermatoloji Derneği, Türk Tabipler Birliği - İstanbul Tabip Odası "
+"üyesiyim.                Evli ve 2 çocuk babasıyım ve halen kendi kliniğinde "
+"hastalarıma hizmet vermekteyim."
+msgstr ""
+
+#: .\mainapp\templates\mainapp\hakkimda.html:17
+msgid "Kurslar"
+msgstr "Courses"
+
+#: .\mainapp\templates\mainapp\hakkimda.html:43
+msgid "Kongreler"
+msgstr "Congress"
+
+#: .\mainapp\templates\mainapp\hakkimda.html:67
+msgid "Yayınlar"
+msgstr "Article"
+
+#: .\mainapp\templates\mainapp\iletisim.html:13
+msgid "İrtibat Bilgileri"
+msgstr "Contact information"
+
+#: .\mainapp\templates\mainapp\iletisim.html:18
+msgid "Adres"
+msgstr "Address"
+
+#: .\mainapp\templates\mainapp\iletisim.html:22
+#: .\mainapp\templates\mainapp\iletisim.html:24
+#: .\mainapp\templates\mainapp\iletisim.html:68
+msgid "Telefon"
+msgstr "Phone Number"
+
+#: .\mainapp\templates\mainapp\iletisim.html:23
+msgid "Cep"
+msgstr "Mobile Phone Number"
+
+#: .\mainapp\templates\mainapp\iletisim.html:27
+#: .\mainapp\templates\mainapp\temel.html:134
+msgid "Sosyal Medya"
+msgstr "Social Media"
+
+#: .\mainapp\templates\mainapp\iletisim.html:37
+msgid "Mesaj Gönder"
+msgstr "Send Message"
 
 #: .\mainapp\templates\mainapp\iletisim.html:45
 msgid "İsim"
@@ -259,10 +476,6 @@ msgstr "Surname"
 #: .\mainapp\templates\mainapp\iletisim.html:61
 msgid "Eposta (örnek@eposta.com)"
 msgstr "Email"
-
-#: .\mainapp\templates\mainapp\iletisim.html:68
-msgid "Telefon"
-msgstr "Phone Number"
 
 #: .\mainapp\templates\mainapp\iletisim.html:76
 msgid "Mesajınızı Yazınız"
@@ -302,10 +515,6 @@ msgstr ""
 msgid "Dr. Ersin AYDIN"
 msgstr "Ersin AYDIN, MD"
 
-#: .\mainapp\templates\mainapp\temel.html:44
-msgid "Hakkımda"
-msgstr "About Me"
-
 #: .\mainapp\templates\mainapp\temel.html:47
 msgid "Uygulamalar"
 msgstr "Applications"
@@ -339,9 +548,179 @@ msgstr "Log in"
 msgid "Başa Dön"
 msgstr "Back to Top"
 
-#: .\mainapp\templates\mainapp\temel.html:134
-msgid "Sosyal Medya"
-msgstr "Social Media"
+#: .\mainapp\templates\mainapp\uygulamalar.html:8
+msgid "UYGULAMALAR"
+msgstr "APPLICATIONS"
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:19
+msgid ""
+"'Kendi Yaşınızın En Genci Olun.'<br> Hepimiz aynaya baktığımızda kendimizi "
+"genç ve güzel hissetmek isteriz. Zamanla yüzümüzde ortaya çıkan "
+"kırışıklıklar kendimizi yaşlı olarak hissetmemizde büyük rol oynamaktadır. "
+"Bu kırışıklıkların oluşmasındaki en önemli pay günlük hayatımızda sıkça "
+"kullandığımız mimik kaslarına aittir. Clostridium Botulinum da bu kasların "
+"neden olduğu kırışıklıkların azaltılmasında ve engellemesinde kullanılan "
+"etkili bir estetik yöntemdir."
+msgstr ""
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:20
+#: .\mainapp\templates\mainapp\uygulamalar.html:31
+#: .\mainapp\templates\mainapp\uygulamalar.html:42
+#: .\mainapp\templates\mainapp\uygulamalar.html:53
+#: .\mainapp\templates\mainapp\uygulamalar.html:64
+#: .\mainapp\templates\mainapp\uygulamalar.html:75
+#: .\mainapp\templates\mainapp\uygulamalar.html:86
+#: .\mainapp\templates\mainapp\uygulamalar.html:97
+#: .\mainapp\templates\mainapp\uygulamalar.html:108
+#: .\mainapp\templates\mainapp\uygulamalar.html:119
+#: .\mainapp\templates\mainapp\uygulamalar.html:130
+#: .\mainapp\templates\mainapp\uygulamalar.html:141
+#: .\mainapp\templates\mainapp\uygulamalar.html:152
+#: .\mainapp\templates\mainapp\uygulamalar.html:163
+#: .\mainapp\templates\mainapp\uygulamalar.html:174
+#: .\mainapp\templates\mainapp\uygulamalar.html:185
+#: .\mainapp\templates\mainapp\uygulamalar.html:196
+#: .\mainapp\templates\mainapp\uygulamalar.html:212
+#: .\mainapp\templates\mainapp\uygulamalar.html:223
+#: .\mainapp\templates\mainapp\uygulamalar.html:234
+#: .\mainapp\templates\mainapp\uygulamalar.html:245
+#: .\mainapp\templates\mainapp\uygulamalar.html:256
+#: .\mainapp\templates\mainapp\uygulamalar.html:267
+#: .\mainapp\templates\mainapp\uygulamalar.html:278
+#: .\mainapp\templates\mainapp\uygulamalar.html:289
+#: .\mainapp\templates\mainapp\uygulamalar.html:300
+#: .\mainapp\templates\mainapp\uygulamalar.html:311
+#: .\mainapp\templates\mainapp\uygulamalar.html:322
+#: .\mainapp\templates\mainapp\uygulamalar.html:333
+#: .\mainapp\templates\mainapp\uygulamalar.html:344
+#: .\mainapp\templates\mainapp\uygulamalar.html:355
+#: .\mainapp\templates\mainapp\uygulamalar.html:366
+#: .\mainapp\templates\mainapp\uygulamalar.html:377
+#: .\mainapp\templates\mainapp\uygulamalar.html:388
+#: .\mainapp\templates\mainapp\uygulamalar.html:399
+#: .\mainapp\templates\mainapp\uygulamalar.html:410
+#: .\mainapp\templates\mainapp\uygulamalar.html:421
+#: .\mainapp\templates\mainapp\uygulamalar.html:432
+#: .\mainapp\templates\mainapp\uygulamalar.html:443
+#: .\mainapp\templates\mainapp\uygulamalar.html:454
+msgid "Ayrıntılar için Tıklayınız..."
+msgstr "Click for More Details..."
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:30
+msgid ""
+"Terleme Tedavisi; Koltuk altı ve el aşırı terlemesinde botoks uygulaması ile "
+"oldukça başarılı sonuçlar elde edilmektedir. Zamanında yapılan tekrarlar "
+"tedavinin etkinliğini arttırır. Terlemenin azalması kişinin sosyal ve "
+"psikolojik yaşantısına olumlu yansır."
+msgstr ""
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:41
+#: .\mainapp\templates\mainapp\uygulamalar.html:74
+#: .\mainapp\templates\mainapp\uygulamalar.html:85
+#: .\mainapp\templates\mainapp\uygulamalar.html:107
+#: .\mainapp\templates\mainapp\uygulamalar.html:118
+#: .\mainapp\templates\mainapp\uygulamalar.html:162
+#: .\mainapp\templates\mainapp\uygulamalar.html:173
+#: .\mainapp\templates\mainapp\uygulamalar.html:184
+msgid "Kendi Yaşınızın En Genci Olun."
+msgstr ""
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:52
+msgid ""
+"Aquapeel içerisinde bulunan 3 adet değişik özellikdeki bileşimyonlarla 3 "
+"değişik aşamada medikal bir cilt bakımı yapar.                    İlk ve "
+"ikinci aşamada vorteks vakumlama özelliği ile yüzeysel bir soyma yaparak "
+"gözeneklerin açılmasını yardımcı olur.                    Üçüncü aşamada "
+"içeriğini yatıştırıcı ve nemlendirici. Toplamda 3 ile 5 seans arasında "
+"yapılır."
+msgstr ""
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:63
+msgid ""
+"Lazer teknolojisi kullanılarak Dövme Silme,                    Karbon "
+"Peeling,                    Lazer Epilasyon,                    Leke "
+"Tedavisi,                    Sivilce İzi Tedavisi ve                    Cilt "
+"Gençleştirme                    başarıyla "
+"gerçekleştirilmektedir.                "
+msgstr ""
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:96
+msgid ""
+"                    Diş sıkma problemi olan çok sayıda kişi "
+"var.                    Bu sorun dişlerde ve çene ekleminde bir takım "
+"sorunlara neden olabildiği gibi yüzde istenmeyen                    kare "
+"görüntüsüne yol açarak yüz ovalini bozabiliyor.                    Bu sorunu "
+"çok kısa süren bir uygulama ile gidermek ve oval bir yüz hattı oluşturmak "
+"mümkün.                "
+msgstr ""
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:129
+msgid ""
+"Altın İğne ile Cildiniz Yenilensin<br><br>       Altın İğne Nedir?"
+"<br><br>                    Radyofrekans (ısı) enerjisinin Secret Altın İğne "
+"Cihazı ile deri ve deri altına verilmesi ve                    bu enerjiyle "
+"kontrollü bir hasar oluşturulması prensibine dayanan yeni bir teknolojik "
+"yöntemdir."
+msgstr ""
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:140
+msgid ""
+"                    Kadınlarda saç dökülmesi çok sık karşılaştığımız "
+"dermatolojik sorunlardan bir tanesi.                    Zamanında yapılan "
+"analizler ve uygun tedavilerle bu durum düzeltilebilmektedir."
+msgstr ""
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:151
+msgid ""
+"   Farklı teknolojiler kullanarak;                    Gençlik (Nem) Aşısı, "
+"Göz Altı Dolgusu, Alın Dolgusu, Burun Dolgusu, Nazolabial Dolgusu, Dudak "
+"Dolgusu,                    Elmacık Dolgusu, Akıllı Dolgu, Çene Dolgusu "
+"başarı ile yapılmaktadır."
+msgstr ""
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:195
+msgid ""
+"Kişinin kendisinden alınan kanın, santrifüj denilen bir işlemden sonra "
+"geçirildikten sonra, içerisindeki trombosit hücrelerin ayrıştırıldığı bir "
+"sırada enjekte ederek, şeklinde açıklanabilir."
+msgstr ""
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:211
+msgid ""
+"Akne, yüz, omuzlar, sırt ve göğüsteki yağ bezleriyle ilgili bir deri "
+"hastalığı.                    En çok 14-20 yaşlar arasında görülür ve bu "
+"hastalığın tipik belirtileri olan siyah noktalar,                    "
+"sivilceler, gençlerin bu en hassas devirlerinde genellikle psikolojik "
+"rahatsızlıklara yol açar.                    Yağ bezlerinin kanalında bir "
+"tıkaç oluşur ve bu tıkacın başı sertleşip siyahlaşır.                    "
+"Bazen, kanal tıkalı olduğu halde, bez, yağ salgılamaya devam eder ve böylece "
+"içi yağ dolu bir kist oluşur.                    Siyah noktalara tıpta "
+"komedon adı verilir.                    Genetik yatkınlık,stres,yağlı "
+"kozmetik ürünler,hiperandrojenizm risk faktörleri arasında sayılır."
+"<br><br>                    Komedon oluştuktan sonra, normalde de cildimizde "
+"bulunan propionibacterium acnes adlı bakteri buraya "
+"yerleşir                    ve akne oluşumuna katkıda bulunur."
+msgstr ""
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:222
+msgid "Genital bölge siğilleri cinsel yaşamınızı etkilemesin!"
+msgstr ""
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:321
+msgid "Aşırı terleme"
+msgstr "Hyperhidrosis"
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:332
+msgid "Gül hastalığı, Gülleme"
+msgstr "Rosacea"
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:365
+msgid "Androgenetik Alopesi, Alopesi Areata"
+msgstr ""
+
+#: .\mainapp\templates\mainapp\uygulamalar.html:409
+msgid "Siğil"
+msgstr "Verruca "
 
 #: .\mainapp\views.py:31
 msgid "Kutucukları Doldurunuz."
